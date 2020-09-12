@@ -21,6 +21,7 @@
   <ItemGroup>
     <ClCompile Include="2529.cpp" />
     <ClCompile Include="9372.cpp" />
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
