@@ -16,6 +16,9 @@
     <Filter Include="소스 파일\BOJ">
       <UniqueIdentifier>{67f8176c-f07e-4725-9b0e-79fc94ad469f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\프로그래머스">
+      <UniqueIdentifier>{452113b7-1abc-4dca-954c-1d2c86afb736}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="9372.cpp">
@@ -24,8 +27,11 @@
     <ClCompile Include="2529.cpp">
       <Filter>소스 파일\BOJ</Filter>
     </ClCompile>
-    <ClCompile Include="main.cpp">
+    <ClCompile Include="1913.cpp">
       <Filter>소스 파일\BOJ</Filter>
+    </ClCompile>
+    <ClCompile Include="베스트앨범.cpp">
+      <Filter>소스 파일\프로그래머스</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

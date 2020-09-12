@@ -21,7 +21,8 @@
   <ItemGroup>
     <ClCompile Include="2529.cpp" />
     <ClCompile Include="9372.cpp" />
-    <ClCompile Include="main.cpp" />
+    <ClCompile Include="1913.cpp" />
+    <ClCompile Include="베스트앨범.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
