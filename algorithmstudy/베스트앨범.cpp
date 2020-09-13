@@ -57,5 +57,6 @@ namespace programmers_bestAlbum {
         vector<int> plays = { 500, 600, 150, 800, 2500 };
 
         solution(genres, plays);
+        return 0;
     }
 }

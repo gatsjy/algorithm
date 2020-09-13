@@ -33,5 +33,8 @@
     <ClCompile Include="베스트앨범.cpp">
       <Filter>소스 파일\프로그래머스</Filter>
     </ClCompile>
+    <ClCompile Include="전화번호 목록.cpp">
+      <Filter>소스 파일\프로그래머스</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
