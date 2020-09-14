@@ -19,10 +19,12 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="1120.cpp" />
     <ClCompile Include="2529.cpp" />
     <ClCompile Include="9372.cpp" />
     <ClCompile Include="1913.cpp" />
     <ClCompile Include="베스트앨범.cpp" />
+    <ClCompile Include="입국심사.cpp" />
     <ClCompile Include="전화번호 목록.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">

@@ -24,5 +24,6 @@ namespace programmers_전화번호목록 {
         vector<string> book2 = { "123", "456", "789" };
         vector<string> book3 = { "12", "123", "1235", "567", "88" };
         cout << solution(book1) << endl;
+        return 0;
     }
 }
