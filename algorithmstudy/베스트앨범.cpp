@@ -7,10 +7,11 @@
 using namespace std;
 
 namespace programmers_bestAlbum {
+
     bool compare(pair<int, int> a, pair<int, int> b) {
         return a.first > b.first;
     }
-wndksdl
+
     bool compare_map_value(pair<string, int> a, pair<string, int> b) {
         return a.second > b.second;
     }
