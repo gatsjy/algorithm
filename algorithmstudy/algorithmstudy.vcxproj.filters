@@ -19,6 +19,9 @@
     <Filter Include="소스 파일\프로그래머스">
       <UniqueIdentifier>{452113b7-1abc-4dca-954c-1d2c86afb736}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\socar">
+      <UniqueIdentifier>{938a0c18-458a-43ed-8d90-366b549e07e4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="9372.cpp">
@@ -47,6 +50,12 @@
     </ClCompile>
     <ClCompile Include="큰수만들기.cpp">
       <Filter>소스 파일\프로그래머스</Filter>
+    </ClCompile>
+    <ClCompile Include="1번문항.cpp">
+      <Filter>소스 파일\socar</Filter>
+    </ClCompile>
+    <ClCompile Include="2번문항.cpp">
+      <Filter>소스 파일\socar</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
