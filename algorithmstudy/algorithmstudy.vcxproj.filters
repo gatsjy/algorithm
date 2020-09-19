@@ -57,5 +57,8 @@
     <ClCompile Include="2번문항.cpp">
       <Filter>소스 파일\socar</Filter>
     </ClCompile>
+    <ClCompile Include="정수삼각형.cpp">
+      <Filter>소스 파일\프로그래머스</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

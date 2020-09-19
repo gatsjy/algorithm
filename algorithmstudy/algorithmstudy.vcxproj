@@ -29,6 +29,7 @@
     <ClCompile Include="베스트앨범.cpp" />
     <ClCompile Include="입국심사.cpp" />
     <ClCompile Include="전화번호 목록.cpp" />
+    <ClCompile Include="정수삼각형.cpp" />
     <ClCompile Include="큰수만들기.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
