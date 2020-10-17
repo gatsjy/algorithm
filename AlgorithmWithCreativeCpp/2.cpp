@@ -14,9 +14,7 @@ namespace _2 {
 			sum += i;
 			cout << i << " +";
 		}
-		sum += B;
-		cout << B << " = ";
-		cout << sum;
+		cout << B << " = " << sum+ B;
 		return 0;
 	}
 }
