@@ -3,7 +3,7 @@
 using namespace std;
 
 namespace _8 {
-	int main() {
+	void main() {
 		stack<char> st;
 
 		string s;

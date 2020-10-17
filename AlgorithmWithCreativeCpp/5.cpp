@@ -1,12 +1,12 @@
 #include <bits/stdc++.h>
 
 using namespace std;
-namespace {
+namespace _10{
 	void main() {
 		// 주민등록증을 기준으로 나이를 구하라.
 		string s;
 		cin >> s;
-		char sex;
+		char sex = 'M';
 		int age = 0;
 		// 1. 1900년대 남자
 		if (s[7] == '1') {
