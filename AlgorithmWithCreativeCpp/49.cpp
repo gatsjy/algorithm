@@ -1,30 +1,40 @@
+#include <string>
 #include <vector>
-#include <iostream>
-#include <algorithm>
 
 using namespace std;
 
-namespace _49 {
-    int main() {
-        int n;
-        cin >> n;
+int solution(vector<int> food_times, long long k) {
+    int answer = 0;
 
-        vector<int> front(n);
-        for (int i = 0; i < n; i++) {
-            cin >> front[i];
-        }
-        vector<int> side(n);
-        for (int i = 0; i < n; i++) {
-            cin >> side[i];
-        }
-
-        int sum = 0;
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < n; j++) {
-                sum += min(front[i], side[j]);
-            }
-        }
-        cout << sum;
-        return 0;
+    int total = 0;
+    for (int i = 0; i < food_times.size(); i++) {
+        total += food_times[i];
     }
+
+    if (total < k) {
+        return -1;
+    }
+    int time = 0;
+    int pos = -1;
+    while (1) {
+        pos++;
+        if (pos == food_times.size()) pos = 0;
+        if (food_times[pos] == 0) continue;
+        food_times[pos]--;
+        time++;
+        if (time == k) break;
+    }
+    while (1) {
+        pos++;
+        if (pos == food_times.size()) pos = 0;
+        if (food_times[pos] != 0) break;
+    }
+    return pos + 1;
+}
+
+int main() {
+    vector<int> v = { 3,1,2 };
+    long long k = 5;
+    solution(v, k);
+    return 0;
 }
