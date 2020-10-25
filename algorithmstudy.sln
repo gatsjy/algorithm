@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AA", "algorithmstudy\algori
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AlgorithmWithCreativeCpp", "AlgorithmWithCreativeCpp\AlgorithmWithCreativeCpp.vcxproj", "{66507989-EAA4-4D17-B273-421E8D065DF3}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Bakjoon", "Bakjoon\Bakjoon.vcxproj", "{E3DE990D-4B13-4227-96A2-54EA5B26109B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{66507989-EAA4-4D17-B273-421E8D065DF3}.Release|x64.Build.0 = Release|x64
 		{66507989-EAA4-4D17-B273-421E8D065DF3}.Release|x86.ActiveCfg = Release|Win32
 		{66507989-EAA4-4D17-B273-421E8D065DF3}.Release|x86.Build.0 = Release|Win32
+		{E3DE990D-4B13-4227-96A2-54EA5B26109B}.Debug|x64.ActiveCfg = Debug|x64
+		{E3DE990D-4B13-4227-96A2-54EA5B26109B}.Debug|x64.Build.0 = Debug|x64
+		{E3DE990D-4B13-4227-96A2-54EA5B26109B}.Debug|x86.ActiveCfg = Debug|Win32
+		{E3DE990D-4B13-4227-96A2-54EA5B26109B}.Debug|x86.Build.0 = Debug|Win32
+		{E3DE990D-4B13-4227-96A2-54EA5B26109B}.Release|x64.ActiveCfg = Release|x64
+		{E3DE990D-4B13-4227-96A2-54EA5B26109B}.Release|x64.Build.0 = Release|x64
+		{E3DE990D-4B13-4227-96A2-54EA5B26109B}.Release|x86.ActiveCfg = Release|Win32
+		{E3DE990D-4B13-4227-96A2-54EA5B26109B}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
