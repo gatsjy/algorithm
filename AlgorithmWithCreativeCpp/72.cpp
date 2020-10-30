@@ -23,5 +23,6 @@ namespace _72 {
 				q.pop();
 			}
 		}
+		return 0;
 	}
 }
