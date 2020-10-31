@@ -201,6 +201,13 @@
     <ClCompile Include="78.cpp" />
     <ClCompile Include="79.cpp" />
     <ClCompile Include="8.cpp" />
+    <ClCompile Include="80.cpp" />
+    <ClCompile Include="81.cpp" />
+    <ClCompile Include="82.cpp" />
+    <ClCompile Include="84.cpp" />
+    <ClCompile Include="85.cpp" />
+    <ClCompile Include="86.cpp" />
+    <ClCompile Include="87.cpp" />
     <ClCompile Include="9.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
