@@ -50,5 +50,6 @@ namespace _16503 {
         int s2 = cal(number[0], op[0], to_string(cal(number[1], op[1], number[2])));
         cout << min(s1, s2) << endl;
         cout << max(s1, s2) << endl;
+        return 0;
     }
 }
