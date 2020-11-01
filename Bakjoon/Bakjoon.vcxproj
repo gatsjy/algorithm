@@ -139,13 +139,19 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="10951.cpp" />
+    <ClCompile Include="10990.cpp" />
+    <ClCompile Include="11023.cpp" />
     <ClCompile Include="11098.cpp" />
     <ClCompile Include="11866.cpp" />
     <ClCompile Include="1259.cpp" />
+    <ClCompile Include="1550.cpp" />
     <ClCompile Include="16503.cpp" />
     <ClCompile Include="16507.cpp" />
     <ClCompile Include="2003.cpp" />
     <ClCompile Include="2346.cpp" />
+    <ClCompile Include="2556.cpp" />
+    <ClCompile Include="3003.cpp" />
+    <ClCompile Include="5337.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
