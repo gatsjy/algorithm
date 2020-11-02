@@ -22,5 +22,6 @@ namespace _10093 {
 		else {
 			cout << 0 << "\n";
 		}
+		return 0;
 	}
 }
