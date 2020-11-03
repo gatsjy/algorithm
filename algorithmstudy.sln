@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AlgorithmWithCreativeCpp", 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Bakjoon", "Bakjoon\Bakjoon.vcxproj", "{E3DE990D-4B13-4227-96A2-54EA5B26109B}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Programmers", "Programmers\Programmers.vcxproj", "{44FFA6F6-0441-4A53-B011-8186AC7D0F34}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,6 +43,14 @@ Global
 		{E3DE990D-4B13-4227-96A2-54EA5B26109B}.Release|x64.Build.0 = Release|x64
 		{E3DE990D-4B13-4227-96A2-54EA5B26109B}.Release|x86.ActiveCfg = Release|Win32
 		{E3DE990D-4B13-4227-96A2-54EA5B26109B}.Release|x86.Build.0 = Release|Win32
+		{44FFA6F6-0441-4A53-B011-8186AC7D0F34}.Debug|x64.ActiveCfg = Debug|x64
+		{44FFA6F6-0441-4A53-B011-8186AC7D0F34}.Debug|x64.Build.0 = Debug|x64
+		{44FFA6F6-0441-4A53-B011-8186AC7D0F34}.Debug|x86.ActiveCfg = Debug|Win32
+		{44FFA6F6-0441-4A53-B011-8186AC7D0F34}.Debug|x86.Build.0 = Debug|Win32
+		{44FFA6F6-0441-4A53-B011-8186AC7D0F34}.Release|x64.ActiveCfg = Release|x64
+		{44FFA6F6-0441-4A53-B011-8186AC7D0F34}.Release|x64.Build.0 = Release|x64
+		{44FFA6F6-0441-4A53-B011-8186AC7D0F34}.Release|x86.ActiveCfg = Release|Win32
+		{44FFA6F6-0441-4A53-B011-8186AC7D0F34}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
