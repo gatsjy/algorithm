@@ -41,5 +41,6 @@ namespace _14648 {
 				cout << sum1 - sum2 << endl;
 			}
 		}
+		return 0;
 	}
 }
