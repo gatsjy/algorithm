@@ -1,8 +1,8 @@
 #include <bits/stdc++.h>
 
-namespace _11098 {
-	using namespace std;
+using namespace std;
 
+namespace _11098 {
 	struct player {
 		string name;
 		long price;
