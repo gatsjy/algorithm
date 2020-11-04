@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
 
 using namespace std;
+namespace _1871{
 vector<string> splitString(string str, char delimeter) {
     vector<string> res;
     string tmp = "";
@@ -35,4 +36,5 @@ int main() {
         cout << "\n";
 	}
     return 0;
+}
 }
