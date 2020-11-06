@@ -218,5 +218,11 @@
     <ClCompile Include="87.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="네트워크 선 자르기%28Bottom-Up%29.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="네트워크 선 자르기%28Top-Down%29.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
