@@ -140,6 +140,7 @@
   <ItemGroup>
     <ClCompile Include="10093.cpp" />
     <ClCompile Include="10799.cpp" />
+    <ClCompile Include="10872.cpp" />
     <ClCompile Include="10951.cpp" />
     <ClCompile Include="10990.cpp" />
     <ClCompile Include="11023.cpp" />
@@ -152,6 +153,7 @@
     <ClCompile Include="1244.cpp" />
     <ClCompile Include="1259.cpp" />
     <ClCompile Include="12605.cpp" />
+    <ClCompile Include="1337.cpp" />
     <ClCompile Include="13752.cpp" />
     <ClCompile Include="14489.cpp" />
     <ClCompile Include="14592.cpp" />
