@@ -138,6 +138,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\AlgorithmWithCreativeCpp\14502.cpp" />
     <ClCompile Include="10093.cpp" />
     <ClCompile Include="1022.cpp" />
     <ClCompile Include="10799.cpp" />
