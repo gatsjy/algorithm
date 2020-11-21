@@ -1,65 +1,73 @@
 #include <bits/stdc++.h>
 
+/*
+2020-11-21, Gatsjy, 1707(백준)
+*/
+
 using namespace std;
 
-const int MAX = 20000 + 1;
-int k, v, e;
-vector<int> graph[MAX];
-int nodeColor[MAX];
+namespace _1707 {
 
-void dfs(int nodeNum, int color) {
-	nodeColor[nodeNum] = color;
+	int K, V, E;
+	vector<int> graph[20001];
+	int vColor[20001];
 
-	for (int i = 0; i < graph[nodeNum].size(); i++) {
-		int next = graph[nodeNum][i];
-		if (!nodeColor[next]) {
-			dfs(next, 3 - color);
-		}
-	}
-}
-
-// 서로 연결된 노드가 같은 색깔이면 이분 그래프가 아니다.
-bool isBiGraph(void) {
-	for (int i = 1; i <= v; i++) {
-		for (int j = 0; j < graph[i].size(); j++) {
-			int next = graph[i][j];
-			if (nodeColor[i] == nodeColor[next]) {
-				return false;
+	void dfs(int v, int color) {
+		vColor[v] = color;
+		for (int i = 0; i < graph[v].size(); i++) {
+			int next = graph[v][i];
+			if (!vColor[next]) {
+				dfs(next, 3 - color);
 			}
 		}
 	}
-	return true;
-}
-int main() {
-	cin >> k;
-	while (k--) {
-		// 초기화 해줍니다.
-		for (int i = 0; i < MAX; i++) {
-			graph[i].clear();
-		}
-		memset(nodeColor, 0, sizeof(nodeColor));
 
-		cin >> v >> e;
-
-		for (int i = 0; i < e; i++) {
-			int start, end;
-			cin >> start >> end;
-			graph[start].push_back(end);
-			graph[end].push_back(start);
-		}
-
-		for (int i = 1; i <= v; i++) {
-			if (!nodeColor[i]) {
-				dfs(i, 0);
+	bool isBinary() {
+		for (int i = 1; i <= V; i++) {
+			for (int j = 0; j < graph[i].size(); j++) {
+				int next = graph[i][j];
+				if (vColor[i] == vColor[next]) {
+					return false;
+				}
 			}
 		}
-
-		if (isBiGraph()) {
-			cout << "YES" << "\n";
-		}
-		else {
-			cout << "NO" << "\n";
-		}
+		return true;
 	}
-	return 0;
+
+	int main() {
+
+		cin >> K;
+		while (K--) {
+			cin >> V >> E;
+
+			// 해당 정점 초기화
+			for (int i = 0; i < 20001; i++) {
+				graph[i].clear();
+			}
+			memset(vColor, 0, sizeof(vColor));
+
+			for (int i = 0; i < E; i++) {
+				int start, end;
+				cin >> start >> end;
+				graph[start].push_back(end);
+				graph[end].push_back(start);
+			}
+
+			// 이분 그래프 만드는 작업
+			for (int i = 1; i <= V; i++) {
+				if (!vColor[i]) {
+					dfs(i, 1);
+				}
+			}
+
+			// 이분 그래프 인지 확인 하는 부분
+			if (isBinary()) {
+				cout << "YES" << "\n";
+			}
+			else {
+				cout << "NO" << "\n";
+			}
+		}
+		return 0;
+	}
 }
