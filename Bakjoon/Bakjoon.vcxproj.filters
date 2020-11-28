@@ -198,5 +198,17 @@
     <ClCompile Include="2669(직사각형 네개의 합집합의 면적 구하기).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="2636(치즈).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1629(곱셈).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="8892(팰린드롬).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1213(팰린드롬만들기).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

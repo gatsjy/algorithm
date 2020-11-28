@@ -157,6 +157,7 @@
     <ClCompile Include="11931.cpp" />
     <ClCompile Include="11945.cpp" />
     <ClCompile Include="1208.cpp" />
+    <ClCompile Include="1213(팰린드롬만들기).cpp" />
     <ClCompile Include="1235.cpp" />
     <ClCompile Include="1244.cpp" />
     <ClCompile Include="1259.cpp" />
@@ -174,6 +175,7 @@
     <ClCompile Include="15969.cpp" />
     <ClCompile Include="1600.cpp" />
     <ClCompile Include="1620.cpp" />
+    <ClCompile Include="1629(곱셈).cpp" />
     <ClCompile Include="16503.cpp" />
     <ClCompile Include="16507.cpp" />
     <ClCompile Include="1707.cpp" />
@@ -190,6 +192,7 @@
     <ClCompile Include="2420.cpp" />
     <ClCompile Include="2556.cpp" />
     <ClCompile Include="2573(빙하).cpp" />
+    <ClCompile Include="2636(치즈).cpp" />
     <ClCompile Include="2669(직사각형 네개의 합집합의 면적 구하기).cpp" />
     <ClCompile Include="3003.cpp" />
     <ClCompile Include="5337.cpp" />
@@ -197,6 +200,7 @@
     <ClCompile Include="5567.cpp" />
     <ClCompile Include="6321.cpp" />
     <ClCompile Include="6679.cpp" />
+    <ClCompile Include="8892(팰린드롬).cpp" />
     <ClCompile Include="9086.cpp" />
     <ClCompile Include="9466.cpp" />
   </ItemGroup>
