@@ -210,5 +210,17 @@
     <ClCompile Include="1213(팰린드롬만들기).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="..\AlgorithmWithCreativeCpp\15666(N과M_12).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2206%28벽부수고이동하기%29_OXXX.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="10974%28모든순열%29.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="10804(카드역배치).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
