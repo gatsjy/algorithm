@@ -222,5 +222,20 @@
     <ClCompile Include="10804(카드역배치).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="15649%28N과M_1%29.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="9663(N-Queen).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1182%28부분수열의 합%29.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1926(그림).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2178(미로찾기).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

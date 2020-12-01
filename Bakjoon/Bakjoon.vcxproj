@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -173,6 +173,7 @@
     <ClCompile Include="14656.cpp" />
     <ClCompile Include="1550.cpp" />
     <ClCompile Include="1551.cpp" />
+    <ClCompile Include="15649%28N과M_1%29.cpp" />
     <ClCompile Include="15686(치킨배달).cpp" />
     <ClCompile Include="15688.cpp" />
     <ClCompile Include="15969.cpp" />
@@ -187,9 +188,11 @@
     <ClCompile Include="1783.cpp" />
     <ClCompile Include="1871.cpp" />
     <ClCompile Include="18883.cpp" />
+    <ClCompile Include="1926(그림).cpp" />
     <ClCompile Include="1931.cpp" />
     <ClCompile Include="1966.cpp" />
     <ClCompile Include="2003.cpp" />
+    <ClCompile Include="2178(미로찾기).cpp" />
     <ClCompile Include="2204.cpp" />
     <ClCompile Include="2206%28벽부수고이동하기%29_OXXX.cpp" />
     <ClCompile Include="2346.cpp" />
@@ -207,6 +210,8 @@
     <ClCompile Include="8892(팰린드롬).cpp" />
     <ClCompile Include="9086.cpp" />
     <ClCompile Include="9466.cpp" />
+    <ClCompile Include="9663(N-Queen).cpp" />
+    <ClCompile Include="1182%28부분수열의 합%29.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
