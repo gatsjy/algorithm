@@ -202,11 +202,13 @@
     <ClCompile Include="2636(치즈).cpp" />
     <ClCompile Include="2669(직사각형 네개의 합집합의 면적 구하기).cpp" />
     <ClCompile Include="3003.cpp" />
+    <ClCompile Include="4179(불!).cpp" />
     <ClCompile Include="5337.cpp" />
     <ClCompile Include="5363.cpp" />
     <ClCompile Include="5567.cpp" />
     <ClCompile Include="6321.cpp" />
     <ClCompile Include="6679.cpp" />
+    <ClCompile Include="7576(토마토).cpp" />
     <ClCompile Include="8892(팰린드롬).cpp" />
     <ClCompile Include="9086.cpp" />
     <ClCompile Include="9466.cpp" />
