@@ -243,5 +243,14 @@
     <ClCompile Include="4179(불!).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="5427(불).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="14719(빗물).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="11501(주식).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

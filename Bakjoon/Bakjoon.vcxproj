@@ -152,6 +152,7 @@
     <ClCompile Include="10990.cpp" />
     <ClCompile Include="11023.cpp" />
     <ClCompile Include="11098.cpp" />
+    <ClCompile Include="11501(주식).cpp" />
     <ClCompile Include="11648.cpp" />
     <ClCompile Include="11724.cpp" />
     <ClCompile Include="11728.cpp" />
@@ -171,6 +172,7 @@
     <ClCompile Include="14592.cpp" />
     <ClCompile Include="14648.cpp" />
     <ClCompile Include="14656.cpp" />
+    <ClCompile Include="14719(빗물).cpp" />
     <ClCompile Include="1550.cpp" />
     <ClCompile Include="1551.cpp" />
     <ClCompile Include="15649%28N과M_1%29.cpp" />
@@ -205,6 +207,7 @@
     <ClCompile Include="4179(불!).cpp" />
     <ClCompile Include="5337.cpp" />
     <ClCompile Include="5363.cpp" />
+    <ClCompile Include="5427(불).cpp" />
     <ClCompile Include="5567.cpp" />
     <ClCompile Include="6321.cpp" />
     <ClCompile Include="6679.cpp" />
