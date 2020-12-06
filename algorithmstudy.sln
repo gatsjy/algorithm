@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Programmers", "Programmers\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "우아한테크코스", "우아한테크코스\우아한테크코스.vcxproj", "{E9A26C04-8829-42F4-ADB2-DBDFB7F29E98}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DataStructure", "DataStructure\DataStructure.vcxproj", "{F8BE0A5D-454A-4F6F-84DC-57C3DA073D04}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -61,6 +63,14 @@ Global
 		{E9A26C04-8829-42F4-ADB2-DBDFB7F29E98}.Release|x64.Build.0 = Release|x64
 		{E9A26C04-8829-42F4-ADB2-DBDFB7F29E98}.Release|x86.ActiveCfg = Release|Win32
 		{E9A26C04-8829-42F4-ADB2-DBDFB7F29E98}.Release|x86.Build.0 = Release|Win32
+		{F8BE0A5D-454A-4F6F-84DC-57C3DA073D04}.Debug|x64.ActiveCfg = Debug|x64
+		{F8BE0A5D-454A-4F6F-84DC-57C3DA073D04}.Debug|x64.Build.0 = Debug|x64
+		{F8BE0A5D-454A-4F6F-84DC-57C3DA073D04}.Debug|x86.ActiveCfg = Debug|Win32
+		{F8BE0A5D-454A-4F6F-84DC-57C3DA073D04}.Debug|x86.Build.0 = Debug|Win32
+		{F8BE0A5D-454A-4F6F-84DC-57C3DA073D04}.Release|x64.ActiveCfg = Release|x64
+		{F8BE0A5D-454A-4F6F-84DC-57C3DA073D04}.Release|x64.Build.0 = Release|x64
+		{F8BE0A5D-454A-4F6F-84DC-57C3DA073D04}.Release|x86.ActiveCfg = Release|Win32
+		{F8BE0A5D-454A-4F6F-84DC-57C3DA073D04}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

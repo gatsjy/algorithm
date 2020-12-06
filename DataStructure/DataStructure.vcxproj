@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -18,10 +18,14 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Linked_List.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{E3DE990D-4B13-4227-96A2-54EA5B26109B}</ProjectGuid>
-    <RootNamespace>Bakjoon</RootNamespace>
+    <ProjectGuid>{F8BE0A5D-454A-4F6F-84DC-57C3DA073D04}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>DataStructure</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -83,9 +87,11 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
     <Link>
@@ -95,6 +101,8 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -107,11 +115,13 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
     <Link>
@@ -123,6 +133,8 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
@@ -137,93 +149,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="..\AlgorithmWithCreativeCpp\14502.cpp" />
-    <ClCompile Include="..\AlgorithmWithCreativeCpp\10026.cpp" />
-    <ClCompile Include="..\AlgorithmWithCreativeCpp\15666(N과M_12).cpp" />
-    <ClCompile Include="10093.cpp" />
-    <ClCompile Include="1022.cpp" />
-    <ClCompile Include="10799.cpp" />
-    <ClCompile Include="10804(카드역배치).cpp" />
-    <ClCompile Include="10872.cpp" />
-    <ClCompile Include="10951.cpp" />
-    <ClCompile Include="10974%28모든순열%29.cpp" />
-    <ClCompile Include="10989.cpp" />
-    <ClCompile Include="10990.cpp" />
-    <ClCompile Include="11023.cpp" />
-    <ClCompile Include="11098%28첼시를 도와줘!_priority_queue struct 관련 예시%29.cpp" />
-    <ClCompile Include="11098.cpp" />
-    <ClCompile Include="11501(주식).cpp" />
-    <ClCompile Include="11648.cpp" />
-    <ClCompile Include="11724.cpp" />
-    <ClCompile Include="11728.cpp" />
-    <ClCompile Include="1173.cpp" />
-    <ClCompile Include="11866.cpp" />
-    <ClCompile Include="11931.cpp" />
-    <ClCompile Include="11945.cpp" />
-    <ClCompile Include="1208.cpp" />
-    <ClCompile Include="1213(팰린드롬만들기).cpp" />
-    <ClCompile Include="1235.cpp" />
-    <ClCompile Include="1244.cpp" />
-    <ClCompile Include="1259.cpp" />
-    <ClCompile Include="12605.cpp" />
-    <ClCompile Include="12851(숨바꼭질 2).cpp" />
-    <ClCompile Include="1337.cpp" />
-    <ClCompile Include="13549(숨바꼭질 3).cpp" />
-    <ClCompile Include="13752.cpp" />
-    <ClCompile Include="1406(에디터).cpp" />
-    <ClCompile Include="14489.cpp" />
-    <ClCompile Include="14592.cpp" />
-    <ClCompile Include="14648.cpp" />
-    <ClCompile Include="14656.cpp" />
-    <ClCompile Include="14719(빗물).cpp" />
-    <ClCompile Include="1550.cpp" />
-    <ClCompile Include="1551.cpp" />
-    <ClCompile Include="15649%28N과M_1%29.cpp" />
-    <ClCompile Include="15686(치킨배달).cpp" />
-    <ClCompile Include="15688.cpp" />
-    <ClCompile Include="15969.cpp" />
-    <ClCompile Include="1600.cpp" />
-    <ClCompile Include="1620.cpp" />
-    <ClCompile Include="1629(곱셈).cpp" />
-    <ClCompile Include="16503.cpp" />
-    <ClCompile Include="16507.cpp" />
-    <ClCompile Include="1697(숨바꼭질).cpp" />
-    <ClCompile Include="1707.cpp" />
-    <ClCompile Include="1744.cpp" />
-    <ClCompile Include="1780.cpp" />
-    <ClCompile Include="17827(달팽이 리스트).cpp" />
-    <ClCompile Include="1783.cpp" />
-    <ClCompile Include="1871.cpp" />
-    <ClCompile Include="18883.cpp" />
-    <ClCompile Include="1926(그림).cpp" />
-    <ClCompile Include="1931.cpp" />
-    <ClCompile Include="1966.cpp" />
-    <ClCompile Include="2003.cpp" />
-    <ClCompile Include="2178(미로찾기).cpp" />
-    <ClCompile Include="2204.cpp" />
-    <ClCompile Include="2206%28벽부수고이동하기%29_OXXX.cpp" />
-    <ClCompile Include="2346.cpp" />
-    <ClCompile Include="2420.cpp" />
-    <ClCompile Include="2556.cpp" />
-    <ClCompile Include="2573(빙하).cpp" />
-    <ClCompile Include="2636(치즈).cpp" />
-    <ClCompile Include="2669(직사각형 네개의 합집합의 면적 구하기).cpp" />
-    <ClCompile Include="3003.cpp" />
-    <ClCompile Include="4179(불!).cpp" />
-    <ClCompile Include="5337.cpp" />
-    <ClCompile Include="5363.cpp" />
-    <ClCompile Include="5427(불).cpp" />
-    <ClCompile Include="5567.cpp" />
-    <ClCompile Include="6321.cpp" />
-    <ClCompile Include="6679.cpp" />
-    <ClCompile Include="7576(토마토).cpp" />
-    <ClCompile Include="8892(팰린드롬).cpp" />
-    <ClCompile Include="9086.cpp" />
-    <ClCompile Include="9466.cpp" />
-    <ClCompile Include="9663(N-Queen).cpp" />
-    <ClCompile Include="1182%28부분수열의 합%29.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
