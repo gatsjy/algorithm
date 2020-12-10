@@ -152,7 +152,6 @@
     <ClCompile Include="10990.cpp" />
     <ClCompile Include="11023.cpp" />
     <ClCompile Include="11098%28첼시를 도와줘!_priority_queue struct 관련 예시%29.cpp" />
-    <ClCompile Include="11098.cpp" />
     <ClCompile Include="11501(주식).cpp" />
     <ClCompile Include="11648.cpp" />
     <ClCompile Include="11724.cpp" />
@@ -180,6 +179,7 @@
     <ClCompile Include="1550.cpp" />
     <ClCompile Include="1551.cpp" />
     <ClCompile Include="15649%28N과M_1%29.cpp" />
+    <ClCompile Include="15683(감시).cpp" />
     <ClCompile Include="15686(치킨배달).cpp" />
     <ClCompile Include="15688.cpp" />
     <ClCompile Include="15969.cpp" />

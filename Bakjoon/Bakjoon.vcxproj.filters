@@ -36,9 +36,6 @@
     <ClCompile Include="16507.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="11098.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="1550.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
@@ -268,6 +265,9 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="11098%28첼시를 도와줘!_priority_queue struct 관련 예시%29.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="15683(감시).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
