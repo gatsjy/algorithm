@@ -1,27 +1,14 @@
-#include <bits/stdc++.h>
+#include <iostream>
+#include <vector>
+#include <queue>
+#include <algorithm>
+#include <string>
 
 using namespace std;
 
 int board[10][10] = {};
-// 0 : 동 / 1 : 서 / 2 : 남 / 3 : 북
-vector<vector<int>> c1 = { {0},{1},{2},{3} };
-vector<vector<int>> c2 = { {0,1},{2,3} };
-vector<vector<int>> c3 = { {0,2},{0,3},{1,2},{1,3} };
-vector<vector<int>> c4 = { {0,1,2},{0,1,3},{0,2,3},{1,2,3} };
-vector<vector<int>> c5 = { {0,1,2,3} };
-
-// 카메라의 방향에 대한
-vector<vector<vector<int>>> camera{ {}
-                                   ,{{0},{1},{2},{3}}
-                                   ,{{0,1},{2,3}}
-                                   ,{{0,2},{0,3},{1,2},{1,3}}
-                                   ,{{0,1,2},{0,1,3},{0,2,3},{1,2,3}}
-                                   ,{{0,1,2,3}}
-};
-
-vector<int> cnt(6);
-
-int n, m;
+int board2[10][10] = {};
+int rboard[10][10] = {};
 
 struct cam {
     int x;
@@ -32,33 +19,81 @@ struct cam {
         y = b;
         number = c;
     }
+    bool operator<(const cam& b) const {
+        return y < b.y;
+    }
 };
+
+// 1. 1차적으로 queue로 돌리니까 실패함 -> 브루트 포스를 이용해서 돌려볼 필요성을 느낌..
+// 2. 일단 priority queue로 돌려보면 어떨까? -> 실패 이거는 무조건 전부다 돌려봐야함...
+// 3. dfs로 모든 경우의 수를 모두 탐색해야함..
+priority_queue<cam> q;
+queue<cam> q2;
+// 0 : 동 / 1 : 서 / 2 : 남 / 3 : 북
+// 카메라의 방향에 대한
+vector<vector<vector<int>>> camera{ {}
+                           ,{{0},{1},{2},{3}}
+                           ,{{0,1},{2,3}}
+                           ,{{0,2},{0,3},{1,2},{1,3}}
+                           ,{{0,1,2},{0,1,3},{0,2,3},{1,2,3}}
+                           ,{{0,1,2,3}}
+};
+
+int n, m;
+
+vector<vector<cam>> cameraCnt(6);
+
 
 int func2(int x, int y, int dir) {
     int res = 0;
+    // 동
     if (dir == 0) {
         for (int i = y + 1; i < m; i++) {
-            if (board[i][y] == 0) res++;
+            if (board[x][i] == 0) {
+                res++;
+            }
+            else if (board[x][i] == 6) {
+                break;
+            };
         }
     }
+    // 서
     else if (dir == 1) {
-        for (int i = 0; i < y; i++) {
-            if (board[i][y] == 0) res++;
+        for (int i = y - 1; i >= 0; i--) {
+            if (board[x][i] == 0) {
+                res++;
+            }
+            else if (board[x][i] == 6) {
+                break;
+            }
         }
     }
+    // 남
     else if (dir == 2) {
         for (int i = x + 1; i < n; i++) {
-            if (board[i][y] == 0) res++;
+            if (board[i][y] == 0) {
+                res++;
+            }
+            else if (board[i][y] == 6) {
+                break;
+            }
         }
     }
+    // 북
     else {
-        for (int i = 0; i < x; i++) {
-            if (board[i][y] == 0) res++;
+        for (int i = x - 1; i >= 0; i--) {
+            if (board[i][y] == 0) {
+                res++;
+            }
+            else if (board[i][y] == 6) {
+                break;
+            }
         }
     }
     return res;
 }
 
+// 가장 최적의 이동을 찾는 문제
 int func(cam c) {
     int max_size = -1;
     int max_idx = -1;
@@ -91,49 +126,183 @@ int func(cam c) {
     return max_idx;
 }
 
-queue<cam> q;
 
+int max_res = 2147000000;
 int main() {
     cin >> n >> m;
 
     for (int i = 0; i < n; i++) {
         for (int j = 0; j < m; j++) {
-            cin >> board[i][j];
+            cin >> rboard[i][j];
             // 카메라 개수 세기
-            if (board[i][j] > 0 && board[i][j] < 6) {
-                q.push(cam(i, j, board[i][j]));
+            if (rboard[i][j] > 0 && rboard[i][j] < 6) {
+                //q.push(cam(i, j, board[i][j]));
+                cameraCnt[rboard[i][j]].push_back(cam(i, j, rboard[i][j]));
             }
         }
     }
 
-    while (!q.empty()) {
-        auto cur = q.front(); q.pop();
-        int max_idx = func(cur);
-        // max_idx대로 채우기
-        for (int i = 0; i < camera[cur.number][max_idx].size(); i++) {
-            int dir = camera[cur.number][max_idx][i];
-            if (dir == 0) {
-                for (int i = cur.y + 1; i < m; i++) {
-                    if (board[i][cur.y] == 0) board[i][cur.y] = -1;
-                }
+    sort(cameraCnt.begin(), cameraCnt.end());
+
+    do {
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < m; j++) {
+                board[i][j] = rboard[i][j];
+                board2[i][j] = rboard[i][j];
             }
-            else if (dir == 1) {
-                for (int i = 0; i < cur.y; i++) {
-                    if (board[i][cur.y] == 0) board[i][cur.y] = -1;
-                }
+        }
+
+        while (!q.empty()) q.pop();
+        while (!q2.empty()) q2.pop();
+
+        for (int i = 0; i < cameraCnt.size(); i++) {
+            for (int j = 0; j < cameraCnt[i].size(); j++) {
+                q.push(cameraCnt[i][j]);
+                q2.push(cameraCnt[i][j]);
             }
-            else if (dir == 2) {
-                for (int i = cur.x + 1; i < n; i++) {
-                    if (board[cur.y][i] == 0) board[cur.y][i] = -1;
+        }
+
+        while (!q.empty()) {
+            auto cur = q.top(); q.pop();
+            int max_idx = func(cur);
+            // max_idx대로 채우기
+            for (int i = 0; i < camera[cur.number][max_idx].size(); i++) {
+                int dir = camera[cur.number][max_idx][i];
+                int x = cur.x;
+                int y = cur.y;
+                if (dir == 0) {
+                    for (int i = y + 1; i < m; i++) {
+                        if (board[x][i] == 0) {
+                            board[x][i] = -1;
+                        }
+                        else if (board[x][i] == 6) {
+                            break;
+                        }
+                    }
                 }
-            }
-            else {
-                for (int i = 0; i < cur.x; i++) {
-                    if (board[cur.y][i] == 0) board[cur.y][i] = -1;
+                // 현재위치를 기준으로 서쪽으로 이동
+                else if (dir == 1) {
+                    for (int i = y - 1; i >= 0; i--) {
+                        if (board[x][i] == 0) {
+                            board[x][i] = -1;
+                        }
+                        else if (board[x][i] == 6) {
+                            break;
+                        }
+                    }
+                }
+                // 현재위치를 기준으로 남쪽으로 이동
+                else if (dir == 2) {
+                    for (int i = x + 1; i < n; i++) {
+                        if (board[i][y] == 0) {
+                            board[i][y] = -1;
+                        }
+                        else if (board[i][y] == 6) {
+                            break;
+                        }
+                    }
+                }
+                // 현재위치를 기준으로 북쯕으로 이동
+                else {
+                    for (int i = x - 1; i >= 0; i--) {
+                        if (board[i][y] == 0) {
+                            board[i][y] = -1;
+                        }
+                        else if (board[i][y] == 6) {
+                            break;
+                        }
+                    }
                 }
             }
         }
-    }
 
+
+        // 잠시 긔..
+        while (!q2.empty()) {
+            auto cur = q2.front(); q2.pop();
+            int max_idx = func(cur);
+            // max_idx대로 채우기
+            for (int i = 0; i < camera[cur.number][max_idx].size(); i++) {
+                int dir = camera[cur.number][max_idx][i];
+                int x = cur.x;
+                int y = cur.y;
+                if (dir == 0) {
+                    for (int i = y + 1; i < m; i++) {
+                        if (board2[x][i] == 0) {
+                            board2[x][i] = -1;
+                        }
+                        else if (board2[x][i] == 6) {
+                            break;
+                        }
+                    }
+                }
+                // 현재위치를 기준으로 서쪽으로 이동
+                else if (dir == 1) {
+                    for (int i = y - 1; i >= 0; i--) {
+                        if (board2[x][i] == 0) {
+                            board2[x][i] = -1;
+                        }
+                        else if (board[x][i] == 6) {
+                            break;
+                        }
+                    }
+                }
+                // 현재위치를 기준으로 남쪽으로 이동
+                else if (dir == 2) {
+                    for (int i = x + 1; i < n; i++) {
+                        if (board2[i][y] == 0) {
+                            board2[i][y] = -1;
+                        }
+                        else if (board2[i][y] == 6) {
+                            break;
+                        }
+                    }
+                }
+                // 현재위치를 기준으로 북쯕으로 이동
+                else {
+                    for (int i = x - 1; i >= 0; i--) {
+                        if (board2[i][y] == 0) {
+                            board2[i][y] = -1;
+                        }
+                        else if (board2[i][y] == 6) {
+                            break;
+                        }
+                    }
+                }
+            }
+        }
+
+        int cnt = 0;
+
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < m; j++) {
+                if (board[i][j] == 0) {
+                    cnt++;
+                }
+            }
+        }
+
+        int cnt2 = 0;
+
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < m; j++) {
+                if (board2[i][j] == 0) {
+                    cnt2++;
+                }
+            }
+        }
+
+        //cout << cnt << "\n";
+        if (max_res > cnt) {
+            max_res = cnt;
+        }
+
+        if (max_res > cnt2) {
+            max_res = cnt2;
+        }
+
+    } while (next_permutation(cameraCnt.begin(), cameraCnt.end()));
+
+    cout << max_res;
     return 0;
 }
