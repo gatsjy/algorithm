@@ -270,5 +270,11 @@
     <ClCompile Include="15683(감시).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="4375%281%29.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1107(리모컨).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
