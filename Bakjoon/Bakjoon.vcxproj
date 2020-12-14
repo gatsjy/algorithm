@@ -198,6 +198,7 @@
     <ClCompile Include="1780.cpp" />
     <ClCompile Include="17827(달팽이 리스트).cpp" />
     <ClCompile Include="1783.cpp" />
+    <ClCompile Include="18290(NM과 K(1)).cpp" />
     <ClCompile Include="1871.cpp" />
     <ClCompile Include="18883.cpp" />
     <ClCompile Include="1926(그림).cpp" />
