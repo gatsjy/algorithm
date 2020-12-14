@@ -147,6 +147,7 @@
     <ClCompile Include="10804(카드역배치).cpp" />
     <ClCompile Include="10872.cpp" />
     <ClCompile Include="10951.cpp" />
+    <ClCompile Include="10972%28다음 순열%29.cpp" />
     <ClCompile Include="10974%28모든순열%29.cpp" />
     <ClCompile Include="10989.cpp" />
     <ClCompile Include="10990.cpp" />
@@ -173,6 +174,7 @@
     <ClCompile Include="13752.cpp" />
     <ClCompile Include="1406(에디터).cpp" />
     <ClCompile Include="14489.cpp" />
+    <ClCompile Include="14500(테트로미노).cpp" />
     <ClCompile Include="14592.cpp" />
     <ClCompile Include="14648.cpp" />
     <ClCompile Include="14656.cpp" />
