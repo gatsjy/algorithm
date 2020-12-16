@@ -169,6 +169,7 @@
     <ClCompile Include="1259.cpp" />
     <ClCompile Include="12605.cpp" />
     <ClCompile Include="12851(숨바꼭질 2).cpp" />
+    <ClCompile Include="1327(소트게임).cpp" />
     <ClCompile Include="1337.cpp" />
     <ClCompile Include="13549(숨바꼭질 3).cpp" />
     <ClCompile Include="13752.cpp" />
@@ -215,6 +216,7 @@
     <ClCompile Include="2573(빙하).cpp" />
     <ClCompile Include="2636(치즈).cpp" />
     <ClCompile Include="2669(직사각형 네개의 합집합의 면적 구하기).cpp" />
+    <ClCompile Include="2846(오르막길).cpp" />
     <ClCompile Include="3003.cpp" />
     <ClCompile Include="4179(불!).cpp" />
     <ClCompile Include="4375%281%29.cpp" />
