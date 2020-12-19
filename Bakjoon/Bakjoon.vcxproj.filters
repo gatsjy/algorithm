@@ -297,5 +297,20 @@
     <ClCompile Include="2846(오르막길).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="1520(내리막 길).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="12761(돌다리).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="17478(재귀함수가 뭔가요).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="16505(별).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="16234(인구 이동).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -168,6 +168,7 @@
     <ClCompile Include="1244.cpp" />
     <ClCompile Include="1259.cpp" />
     <ClCompile Include="12605.cpp" />
+    <ClCompile Include="12761(돌다리).cpp" />
     <ClCompile Include="12851(숨바꼭질 2).cpp" />
     <ClCompile Include="1327(소트게임).cpp" />
     <ClCompile Include="1337.cpp" />
@@ -181,6 +182,7 @@
     <ClCompile Include="14648.cpp" />
     <ClCompile Include="14656.cpp" />
     <ClCompile Include="14719(빗물).cpp" />
+    <ClCompile Include="1520(내리막 길).cpp" />
     <ClCompile Include="1550.cpp" />
     <ClCompile Include="1551.cpp" />
     <ClCompile Include="15649%28N과M_1%29.cpp" />
@@ -190,12 +192,15 @@
     <ClCompile Include="15969.cpp" />
     <ClCompile Include="1600.cpp" />
     <ClCompile Include="1620.cpp" />
+    <ClCompile Include="16234(인구 이동).cpp" />
     <ClCompile Include="1629(곱셈).cpp" />
     <ClCompile Include="16503.cpp" />
+    <ClCompile Include="16505(별).cpp" />
     <ClCompile Include="16507.cpp" />
     <ClCompile Include="1697(숨바꼭질).cpp" />
     <ClCompile Include="1707.cpp" />
     <ClCompile Include="1744.cpp" />
+    <ClCompile Include="17478(재귀함수가 뭔가요).cpp" />
     <ClCompile Include="1748(수 이어쓰기 1).cpp" />
     <ClCompile Include="1780.cpp" />
     <ClCompile Include="17827(달팽이 리스트).cpp" />
