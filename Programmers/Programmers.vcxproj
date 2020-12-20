@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="단어 반환.cpp" />
     <ClCompile Include="등굣길.cpp" />
     <ClCompile Include="불량사용자.cpp" />
     <ClCompile Include="추석트래픽.cpp" />
