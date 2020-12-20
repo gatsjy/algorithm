@@ -205,6 +205,7 @@
     <ClCompile Include="1780.cpp" />
     <ClCompile Include="17827(달팽이 리스트).cpp" />
     <ClCompile Include="1783.cpp" />
+    <ClCompile Include="18258(큐 2).cpp" />
     <ClCompile Include="18290(NM과 K(1)).cpp" />
     <ClCompile Include="1871.cpp" />
     <ClCompile Include="18883.cpp" />
@@ -223,6 +224,7 @@
     <ClCompile Include="2669(직사각형 네개의 합집합의 면적 구하기).cpp" />
     <ClCompile Include="2846(오르막길).cpp" />
     <ClCompile Include="3003.cpp" />
+    <ClCompile Include="3190(뱀).cpp" />
     <ClCompile Include="4179(불!).cpp" />
     <ClCompile Include="4375%281%29.cpp" />
     <ClCompile Include="5337.cpp" />
