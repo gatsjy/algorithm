@@ -148,6 +148,7 @@
     <ClCompile Include="10872.cpp" />
     <ClCompile Include="10951.cpp" />
     <ClCompile Include="10972%28다음 순열%29.cpp" />
+    <ClCompile Include="10973(이전 순열).cpp" />
     <ClCompile Include="10974%28모든순열%29.cpp" />
     <ClCompile Include="10989.cpp" />
     <ClCompile Include="10990.cpp" />
@@ -197,6 +198,7 @@
     <ClCompile Include="16503.cpp" />
     <ClCompile Include="16505(별).cpp" />
     <ClCompile Include="16507.cpp" />
+    <ClCompile Include="16926(배열 돌리기1).cpp" />
     <ClCompile Include="1697(숨바꼭질).cpp" />
     <ClCompile Include="1707.cpp" />
     <ClCompile Include="1744.cpp" />
