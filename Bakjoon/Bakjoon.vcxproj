@@ -171,6 +171,7 @@
     <ClCompile Include="12605.cpp" />
     <ClCompile Include="12761(돌다리).cpp" />
     <ClCompile Include="12851(숨바꼭질 2).cpp" />
+    <ClCompile Include="13023(ABCDE).cpp" />
     <ClCompile Include="1327(소트게임).cpp" />
     <ClCompile Include="1337.cpp" />
     <ClCompile Include="13549(숨바꼭질 3).cpp" />
