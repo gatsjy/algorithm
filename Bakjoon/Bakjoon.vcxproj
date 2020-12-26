@@ -200,6 +200,7 @@
     <ClCompile Include="16505(별).cpp" />
     <ClCompile Include="16507.cpp" />
     <ClCompile Include="16926(배열 돌리기1).cpp" />
+    <ClCompile Include="16948(데스 나이트).cpp" />
     <ClCompile Include="1697(숨바꼭질).cpp" />
     <ClCompile Include="1707.cpp" />
     <ClCompile Include="1744.cpp" />
