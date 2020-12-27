@@ -21,11 +21,11 @@
 - [ ] 종만북 2권
 
 ### https://code.plus/course/51 (기초)
-10430번 - 나머지
-4375번 - 1
-1037번 - 약수
-17427번 - 약수의 합 2
-17425번 - 약수의 합
+- [x]  10430번 - 나머지 https://blog.naver.com/gkswndks123/222187230761
+- [x]  4375번 - 1 https://blog.naver.com/gkswndks123/222171281174
+- [x]  1037번 - 약수 https://blog.naver.com/gkswndks123/222187237545
+- [x]  17427번 - 약수의 합 2 https://blog.naver.com/gkswndks123/222187263377
+- [x]  17425번 - 약수의 합 https://blog.naver.com/gkswndks123/222187288525
 2609번 - 최대공약수와 최소공배수
 1978번 - 소수 찾기
 1929번 - 소수 구하기
