@@ -9,16 +9,11 @@ long long x, y;
 long long res = 2147000000;
 int main() {
 	cin >> x >> y;
-	//cout << (y / x) * 100 << "\n";
-	//for (int i = 0; i < 10; i++) {
-	//	y++;
-	//	x++;
-	//	cout << (y / x) * 100 << "\n";
-	//}
 	long long lt = 1;
 	long long rt = 1000000000;
 
-	int wrate = (int)(((float)y / (float)x) * 100)+1;
+	//int wrate = (int)(((float)y / (float)x) * 100)+1;
+	int wrate = y * 100 / x + 1;
 
 	if (wrate >= 100) {
 		res = 1;
