@@ -327,7 +327,13 @@
     <ClCompile Include="13023(ABCDE).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="3098(소셜네트워크).cpp">
+    <ClCompile Include="16948(데스 나이트).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2512(예산).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1072(게임).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
