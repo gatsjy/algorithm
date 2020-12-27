@@ -230,6 +230,7 @@
     <ClCompile Include="2669(직사각형 네개의 합집합의 면적 구하기).cpp" />
     <ClCompile Include="2846(오르막길).cpp" />
     <ClCompile Include="3003.cpp" />
+    <ClCompile Include="3098(소셜네트워크).cpp" />
     <ClCompile Include="3190(뱀).cpp" />
     <ClCompile Include="4179(불!).cpp" />
     <ClCompile Include="4375%281%29.cpp" />
