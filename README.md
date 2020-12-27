@@ -26,9 +26,9 @@
 - [x]  1037번 - 약수 https://blog.naver.com/gkswndks123/222187237545
 - [x]  17427번 - 약수의 합 2 https://blog.naver.com/gkswndks123/222187263377
 - [x]  17425번 - 약수의 합 https://blog.naver.com/gkswndks123/222187288525
-2609번 - 최대공약수와 최소공배수
-1978번 - 소수 찾기
-1929번 - 소수 구하기
+- [x]  2609번 - 최대공약수와 최소공배수 https://blog.naver.com/gkswndks123/222187657816
+- [x]  1978번 - 소수 찾기 https://blog.naver.com/gkswndks123/222187662088
+- [x]  1929번 - 소수 구하기 https://blog.naver.com/gkswndks123/222187664376
 6588번 - 골드바흐의 추측
 2309번 - 일곱 난쟁이
 3085번 - 사탕 게임
