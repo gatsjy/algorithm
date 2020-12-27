@@ -143,6 +143,7 @@
     <ClCompile Include="..\AlgorithmWithCreativeCpp\15666(N과M_12).cpp" />
     <ClCompile Include="10093.cpp" />
     <ClCompile Include="1022.cpp" />
+    <ClCompile Include="1072(게임).cpp" />
     <ClCompile Include="10799.cpp" />
     <ClCompile Include="10804(카드역배치).cpp" />
     <ClCompile Include="10872.cpp" />
@@ -222,6 +223,7 @@
     <ClCompile Include="2206%28벽부수고이동하기%29_OXXX.cpp" />
     <ClCompile Include="2346.cpp" />
     <ClCompile Include="2420.cpp" />
+    <ClCompile Include="2512(예산).cpp" />
     <ClCompile Include="2556.cpp" />
     <ClCompile Include="2573(빙하).cpp" />
     <ClCompile Include="2636(치즈).cpp" />
