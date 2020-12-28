@@ -31,7 +31,7 @@
 - [x]  1929번 - 소수 구하기 https://blog.naver.com/gkswndks123/222187664376
 - [x]  6588번 - 골드바흐의 추측 https://blog.naver.com/gkswndks123/222187863993
 - [x]  2309번 - 일곱 난쟁이 https://blog.naver.com/gkswndks123/221670040888
-3085번 - 사탕 게임
+- [x]  3085번 - 사탕 게임 https://blog.naver.com/gkswndks123/222188840668
 1476번 - 날짜 계산
 - [x]  1107번 - 리모컨 https://blog.naver.com/gkswndks123/222171369280
 - [x]  14500번 - 테트로미노 https://blog.naver.com/gkswndks123/222172695779
