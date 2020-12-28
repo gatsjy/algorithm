@@ -29,16 +29,15 @@
 - [x]  2609번 - 최대공약수와 최소공배수 https://blog.naver.com/gkswndks123/222187657816
 - [x]  1978번 - 소수 찾기 https://blog.naver.com/gkswndks123/222187662088
 - [x]  1929번 - 소수 구하기 https://blog.naver.com/gkswndks123/222187664376
-6588번 - 골드바흐의 추측
-2309번 - 일곱 난쟁이
+- [x]  6588번 - 골드바흐의 추측 https://blog.naver.com/gkswndks123/222187863993
+- [x]  2309번 - 일곱 난쟁이 https://blog.naver.com/gkswndks123/221670040888
 3085번 - 사탕 게임
 1476번 - 날짜 계산
-1107번 - 리모컨
-14500번 - 테트로미노
+- [x]  1107번 - 리모컨 https://blog.naver.com/gkswndks123/222171369280
+- [x]  14500번 - 테트로미노 https://blog.naver.com/gkswndks123/222172695779
 6064번 - 카잉 달력
 1748번 - 수 이어 쓰기 1
 9095번 - 1, 2, 3 더하기
-브루트 포스 - N과 M
 15649번 - N과 M (1)
 15650번 - N과 M (2)
 15651번 - N과 M (3)
