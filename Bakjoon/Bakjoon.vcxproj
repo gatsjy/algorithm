@@ -143,6 +143,8 @@
     <ClCompile Include="..\AlgorithmWithCreativeCpp\15666(N과M_12).cpp" />
     <ClCompile Include="10093.cpp" />
     <ClCompile Include="1022.cpp" />
+    <ClCompile Include="1037(약수).cpp" />
+    <ClCompile Include="10430(나머지).cpp" />
     <ClCompile Include="1072(게임).cpp" />
     <ClCompile Include="10799.cpp" />
     <ClCompile Include="10804(카드역배치).cpp" />
@@ -185,6 +187,7 @@
     <ClCompile Include="14648.cpp" />
     <ClCompile Include="14656.cpp" />
     <ClCompile Include="14719(빗물).cpp" />
+    <ClCompile Include="1476(날짜 계산).cpp" />
     <ClCompile Include="1520(내리막 길).cpp" />
     <ClCompile Include="1550.cpp" />
     <ClCompile Include="1551.cpp" />
@@ -204,6 +207,7 @@
     <ClCompile Include="16948(데스 나이트).cpp" />
     <ClCompile Include="1697(숨바꼭질).cpp" />
     <ClCompile Include="1707.cpp" />
+    <ClCompile Include="17427(약수의 합 2).cpp" />
     <ClCompile Include="1744.cpp" />
     <ClCompile Include="17478(재귀함수가 뭔가요).cpp" />
     <ClCompile Include="1748(수 이어쓰기 1).cpp" />
@@ -243,6 +247,7 @@
     <ClCompile Include="7576(토마토).cpp" />
     <ClCompile Include="8892(팰린드롬).cpp" />
     <ClCompile Include="9086.cpp" />
+    <ClCompile Include="9095(1, 2, 3 더하기).cpp" />
     <ClCompile Include="9466.cpp" />
     <ClCompile Include="9663(N-Queen).cpp" />
     <ClCompile Include="1182%28부분수열의 합%29.cpp" />

@@ -339,5 +339,20 @@
     <ClCompile Include="3098(소셜네트워크).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="10430(나머지).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1037(약수).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="17427(약수의 합 2).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1476(날짜 계산).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="9095(1, 2, 3 더하기).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
