@@ -36,8 +36,8 @@
 - [x]  1107번 - 리모컨 https://blog.naver.com/gkswndks123/222171369280
 - [x]  14500번 - 테트로미노 https://blog.naver.com/gkswndks123/222172695779
 - [ ]  6064번 - 카잉 달력
-1748번 - 수 이어 쓰기 1
-9095번 - 1, 2, 3 더하기
+- [x]  1748번 - 수 이어 쓰기 1 https://blog.naver.com/gkswndks123/222189604186
+- [x]  9095번 - 1, 2, 3 더하기 https://blog.naver.com/gkswndks123/222189615333
 15649번 - N과 M (1)
 15650번 - N과 M (2)
 15651번 - N과 M (3)
