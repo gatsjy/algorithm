@@ -46,8 +46,8 @@
 - [x]  15655번 - N과 M (6) https://blog.naver.com/gkswndks123/221961804226
 - [x]  15656번 - N과 M (7) https://blog.naver.com/gkswndks123/221961807846
 - [x]  15657번 - N과 M (8) https://blog.naver.com/gkswndks123/221961808890
-- [ ]  18290번 - NM과 K (1)
-9095번 - 1, 2, 3 더하기
+- [x]  18290번 - NM과 K (1) https://blog.naver.com/gkswndks123/222191211977
+- [x]  9095번 - 1, 2, 3 더하기 https://blog.naver.com/gkswndks123/222189615333
 1759번 - 암호 만들기
 14501번 - 퇴사
 14889번 - 스타트와 링크
