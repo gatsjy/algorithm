@@ -38,15 +38,15 @@
 - [ ]  6064번 - 카잉 달력
 - [x]  1748번 - 수 이어 쓰기 1 https://blog.naver.com/gkswndks123/222189604186
 - [x]  9095번 - 1, 2, 3 더하기 https://blog.naver.com/gkswndks123/222189615333
-15649번 - N과 M (1)
-15650번 - N과 M (2)
-15651번 - N과 M (3)
-15652번 - N과 M (4)
-15654번 - N과 M (5)
-15655번 - N과 M (6)
-15656번 - N과 M (7)
-15657번 - N과 M (8)
-18290번 - NM과 K (1)
+- [x]  15649번 - N과 M (1) https://blog.naver.com/gkswndks123/221951467602
+- [x]  15650번 - N과 M (2) https://blog.naver.com/gkswndks123/221670004140
+- [x]  15651번 - N과 M (3) https://blog.naver.com/gkswndks123/221958201627
+- [x]  15652번 - N과 M (4) https://blog.naver.com/gkswndks123/221959968290
+- [x]  15654번 - N과 M (5) https://blog.naver.com/gkswndks123/221960775329
+- [x]  15655번 - N과 M (6) https://blog.naver.com/gkswndks123/221961804226
+- [x]  15656번 - N과 M (7) https://blog.naver.com/gkswndks123/221961807846
+- [x]  15657번 - N과 M (8) https://blog.naver.com/gkswndks123/221961808890
+- [ ]  18290번 - NM과 K (1)
 9095번 - 1, 2, 3 더하기
 1759번 - 암호 만들기
 14501번 - 퇴사
