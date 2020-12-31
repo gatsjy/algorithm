@@ -51,17 +51,17 @@
 - [x]  9095번 - 1, 2, 3 더하기 https://blog.naver.com/gkswndks123/222189615333
 - [x]  1759번 - 암호 만들기 https://blog.naver.com/gkswndks123/222191376650
 - [x]  14501번 - 퇴사 https://blog.naver.com/gkswndks123/222021139498
-14889번 - 스타트와 링크
-15661번 - 링크와 스타트
-2529번 - 부등호
+- [x]  14889번 - 스타트와 링크 https://blog.naver.com/gkswndks123/222191892993
+- [x]  15661번 - 링크와 스타트 https://blog.naver.com/gkswndks123/222191910389
+- [x]  2529번 - 부등호 https://blog.naver.com/gkswndks123/222150581469
 1248번 - 맞춰봐
-10972번 - 다음 순열
-10973번 - 이전 순열
-10974번 - 모든 순열
-10819번 - 차이를 최대로
-10971번 - 외판원 순회 2
-6603번 - 로또
-11723번 - 집합
+- [x]  10972번 - 다음 순열 https://blog.naver.com/gkswndks123/222173154455
+- [x]  10973번 - 이전 순열 https://blog.naver.com/gkswndks123/222181166848
+- [x]  10974번 - 모든 순열 https://blog.naver.com/gkswndks123/222191915778
+- [x]  10819번 - 차이를 최대로 https://blog.naver.com/gkswndks123/222191917979
+- [x]  10971번 - 외판원 순회 2 https://blog.naver.com/gkswndks123/222191965441
+- [x]  6603번 - 로또 https://blog.naver.com/gkswndks123/221972000580
+- [x]  11723번 - 집합 https://blog.naver.com/gkswndks123/222192040288
 1182번 - 부분수열의 합
 14889번 - 스타트와 링크
 14391번 - 종이 조각
