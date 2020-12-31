@@ -150,6 +150,7 @@
     <ClCompile Include="10804(카드역배치).cpp" />
     <ClCompile Include="10872.cpp" />
     <ClCompile Include="10951.cpp" />
+    <ClCompile Include="10971(외판원 순회 2).cpp" />
     <ClCompile Include="10972%28다음 순열%29.cpp" />
     <ClCompile Include="10973(이전 순열).cpp" />
     <ClCompile Include="10974%28모든순열%29.cpp" />
@@ -188,10 +189,12 @@
     <ClCompile Include="14656.cpp" />
     <ClCompile Include="14719(빗물).cpp" />
     <ClCompile Include="1476(날짜 계산).cpp" />
+    <ClCompile Include="14889(스타트와 링크).cpp" />
     <ClCompile Include="1520(내리막 길).cpp" />
     <ClCompile Include="1550.cpp" />
     <ClCompile Include="1551.cpp" />
     <ClCompile Include="15649%28N과M_1%29.cpp" />
+    <ClCompile Include="15661(링크와 스타트).cpp" />
     <ClCompile Include="15683(감시).cpp" />
     <ClCompile Include="15686(치킨배달).cpp" />
     <ClCompile Include="15688.cpp" />
