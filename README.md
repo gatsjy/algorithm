@@ -62,7 +62,7 @@
 - [x]  10971번 - 외판원 순회 2 https://blog.naver.com/gkswndks123/222191965441
 - [x]  6603번 - 로또 https://blog.naver.com/gkswndks123/221972000580
 - [x]  11723번 - 집합 https://blog.naver.com/gkswndks123/222192040288
-1182번 - 부분수열의 합
+- [x]  1182번 - 부분수열의 합 https://blog.naver.com/gkswndks123/222192410118
 14889번 - 스타트와 링크
 14391번 - 종이 조각
 1463번 - 1로 만들기
