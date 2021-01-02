@@ -378,5 +378,11 @@
     <ClCompile Include="12865(평범한 배낭).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="4781(사탕 가게).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1535(안녕).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

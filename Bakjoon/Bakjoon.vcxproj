@@ -195,6 +195,7 @@
     <ClCompile Include="1476(날짜 계산).cpp" />
     <ClCompile Include="14889(스타트와 링크).cpp" />
     <ClCompile Include="1520(내리막 길).cpp" />
+    <ClCompile Include="1535(안녕).cpp" />
     <ClCompile Include="1550.cpp" />
     <ClCompile Include="1551.cpp" />
     <ClCompile Include="15649%28N과M_1%29.cpp" />
@@ -246,6 +247,7 @@
     <ClCompile Include="3190(뱀).cpp" />
     <ClCompile Include="4179(불!).cpp" />
     <ClCompile Include="4375%281%29.cpp" />
+    <ClCompile Include="4781(사탕 가게).cpp" />
     <ClCompile Include="5337.cpp" />
     <ClCompile Include="5363.cpp" />
     <ClCompile Include="5427(불).cpp" />
