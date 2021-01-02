@@ -169,6 +169,7 @@
     <ClCompile Include="11866.cpp" />
     <ClCompile Include="11931.cpp" />
     <ClCompile Include="11945.cpp" />
+    <ClCompile Include="1202(보석 도둑).cpp" />
     <ClCompile Include="1208.cpp" />
     <ClCompile Include="1213(팰린드롬만들기).cpp" />
     <ClCompile Include="1235.cpp" />
@@ -177,6 +178,7 @@
     <ClCompile Include="12605.cpp" />
     <ClCompile Include="12761(돌다리).cpp" />
     <ClCompile Include="12851(숨바꼭질 2).cpp" />
+    <ClCompile Include="12865(평범한 배낭).cpp" />
     <ClCompile Include="13023(ABCDE).cpp" />
     <ClCompile Include="1327(소트게임).cpp" />
     <ClCompile Include="1337.cpp" />
