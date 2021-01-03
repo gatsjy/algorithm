@@ -189,6 +189,7 @@
     <ClCompile Include="14489.cpp" />
     <ClCompile Include="14500(테트로미노).cpp" />
     <ClCompile Include="14592.cpp" />
+    <ClCompile Include="1463(1로 만들기).cpp" />
     <ClCompile Include="14648.cpp" />
     <ClCompile Include="14656.cpp" />
     <ClCompile Include="14719(빗물).cpp" />
@@ -204,6 +205,7 @@
     <ClCompile Include="15686(치킨배달).cpp" />
     <ClCompile Include="15688.cpp" />
     <ClCompile Include="15969.cpp" />
+    <ClCompile Include="15990(1,2,3 더하기 5).cpp" />
     <ClCompile Include="1600.cpp" />
     <ClCompile Include="1620.cpp" />
     <ClCompile Include="16234(인구 이동).cpp" />
