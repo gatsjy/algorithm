@@ -206,6 +206,7 @@
     <ClCompile Include="15686(치킨배달).cpp" />
     <ClCompile Include="15688.cpp" />
     <ClCompile Include="15969.cpp" />
+    <ClCompile Include="15988(1, 2, 3 더하기 3).cpp" />
     <ClCompile Include="15990(1,2,3 더하기 5).cpp" />
     <ClCompile Include="1600.cpp" />
     <ClCompile Include="1620.cpp" />
