@@ -163,6 +163,7 @@
     <ClCompile Include="11648.cpp" />
     <ClCompile Include="11723(집합).cpp" />
     <ClCompile Include="11724.cpp" />
+    <ClCompile Include="11726(2×n 타일링).cpp" />
     <ClCompile Include="11728.cpp" />
     <ClCompile Include="1173.cpp" />
     <ClCompile Include="1182(부분 수열의 합).cpp" />
@@ -180,6 +181,7 @@
     <ClCompile Include="12851(숨바꼭질 2).cpp" />
     <ClCompile Include="12865(평범한 배낭).cpp" />
     <ClCompile Include="13023(ABCDE).cpp" />
+    <ClCompile Include="1309(동물원).cpp" />
     <ClCompile Include="1327(소트게임).cpp" />
     <ClCompile Include="1337.cpp" />
     <ClCompile Include="13549(숨바꼭질 3).cpp" />

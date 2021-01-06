@@ -396,5 +396,11 @@
     <ClCompile Include="15988(1, 2, 3 더하기 3).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="1309(동물원).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="11726(2×n 타일링).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
