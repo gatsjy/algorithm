@@ -161,6 +161,7 @@
     <ClCompile Include="11098%28첼시를 도와줘!_priority_queue struct 관련 예시%29.cpp" />
     <ClCompile Include="11501(주식).cpp" />
     <ClCompile Include="11648.cpp" />
+    <ClCompile Include="11660(구간 합 구하기 5).cpp" />
     <ClCompile Include="11723(집합).cpp" />
     <ClCompile Include="11724.cpp" />
     <ClCompile Include="11726(2×n 타일링).cpp" />
@@ -240,6 +241,7 @@
     <ClCompile Include="2178(미로찾기).cpp" />
     <ClCompile Include="2204.cpp" />
     <ClCompile Include="2206%28벽부수고이동하기%29_OXXX.cpp" />
+    <ClCompile Include="2293(동전 1).cpp" />
     <ClCompile Include="2346.cpp" />
     <ClCompile Include="2420.cpp" />
     <ClCompile Include="2512(예산).cpp" />

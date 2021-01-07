@@ -402,5 +402,11 @@
     <ClCompile Include="11726(2×n 타일링).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="11660(구간 합 구하기 5).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2293(동전 1).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
