@@ -159,6 +159,7 @@
     <ClCompile Include="11023.cpp" />
     <ClCompile Include="1107(리모컨).cpp" />
     <ClCompile Include="11098%28첼시를 도와줘!_priority_queue struct 관련 예시%29.cpp" />
+    <ClCompile Include="1149(RGB거리).cpp" />
     <ClCompile Include="11501(주식).cpp" />
     <ClCompile Include="11648.cpp" />
     <ClCompile Include="11660(구간 합 구하기 5).cpp" />
