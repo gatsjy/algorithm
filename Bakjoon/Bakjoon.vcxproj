@@ -230,6 +230,8 @@
     <ClCompile Include="16948(데스 나이트).cpp" />
     <ClCompile Include="1697(숨바꼭질).cpp" />
     <ClCompile Include="1707.cpp" />
+    <ClCompile Include="17090(미로 탈출하기).cpp" />
+    <ClCompile Include="17141(연구소 2).cpp" />
     <ClCompile Include="17427(약수의 합 2).cpp" />
     <ClCompile Include="1744.cpp" />
     <ClCompile Include="17478(재귀함수가 뭔가요).cpp" />
