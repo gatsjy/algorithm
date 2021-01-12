@@ -184,6 +184,7 @@
     <ClCompile Include="12813(이진수 연산).cpp" />
     <ClCompile Include="12851(숨바꼭질 2).cpp" />
     <ClCompile Include="12865(평범한 배낭).cpp" />
+    <ClCompile Include="12886(돌 그룹).cpp" />
     <ClCompile Include="13023(ABCDE).cpp" />
     <ClCompile Include="1309(동물원).cpp" />
     <ClCompile Include="1327(소트게임).cpp" />
@@ -221,6 +222,7 @@
     <ClCompile Include="1600.cpp" />
     <ClCompile Include="1620.cpp" />
     <ClCompile Include="16234(인구 이동).cpp" />
+    <ClCompile Include="16236(아기상어).cpp" />
     <ClCompile Include="1629(곱셈).cpp" />
     <ClCompile Include="16503.cpp" />
     <ClCompile Include="16505(별).cpp" />
