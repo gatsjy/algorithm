@@ -145,6 +145,7 @@
     <ClCompile Include="1022.cpp" />
     <ClCompile Include="1037(약수).cpp" />
     <ClCompile Include="10430(나머지).cpp" />
+    <ClCompile Include="1062(가르침).cpp" />
     <ClCompile Include="1072(게임).cpp" />
     <ClCompile Include="10799.cpp" />
     <ClCompile Include="10804(카드역배치).cpp" />
