@@ -158,6 +158,7 @@
     <ClCompile Include="10989.cpp" />
     <ClCompile Include="10990.cpp" />
     <ClCompile Include="11023.cpp" />
+    <ClCompile Include="11048(이동하기).cpp" />
     <ClCompile Include="1107(리모컨).cpp" />
     <ClCompile Include="11098%28첼시를 도와줘!_priority_queue struct 관련 예시%29.cpp" />
     <ClCompile Include="1149(RGB거리).cpp" />
@@ -253,6 +254,7 @@
     <ClCompile Include="18883.cpp" />
     <ClCompile Include="1926(그림).cpp" />
     <ClCompile Include="1931.cpp" />
+    <ClCompile Include="1965(상자넣기).cpp" />
     <ClCompile Include="1966.cpp" />
     <ClCompile Include="2003.cpp" />
     <ClCompile Include="2018(수들의 합 5).cpp" />

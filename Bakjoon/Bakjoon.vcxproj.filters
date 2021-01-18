@@ -477,5 +477,11 @@
     <ClCompile Include="16938(캠프준비).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="1965(상자넣기).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="11048(이동하기).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
