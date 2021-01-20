@@ -232,10 +232,12 @@
     <ClCompile Include="16505(별).cpp" />
     <ClCompile Include="16507.cpp" />
     <ClCompile Include="16926(배열 돌리기1).cpp" />
+    <ClCompile Include="16928(뱀과 사다리 게임).cpp" />
     <ClCompile Include="16938(캠프준비).cpp" />
     <ClCompile Include="16940(BFS 스페셜 저지).cpp" />
     <ClCompile Include="16948(데스 나이트).cpp" />
     <ClCompile Include="1697(숨바꼭질).cpp" />
+    <ClCompile Include="16973(직사각형 탈출).cpp" />
     <ClCompile Include="1707.cpp" />
     <ClCompile Include="17090(미로 탈출하기).cpp" />
     <ClCompile Include="17141(연구소 2).cpp" />

@@ -489,5 +489,11 @@
     <ClCompile Include="1342(행운의 문자열).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="16973(직사각형 탈출).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="16928(뱀과 사다리 게임).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
