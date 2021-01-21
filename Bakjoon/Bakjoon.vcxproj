@@ -241,6 +241,7 @@
     <ClCompile Include="1707.cpp" />
     <ClCompile Include="17090(미로 탈출하기).cpp" />
     <ClCompile Include="17141(연구소 2).cpp" />
+    <ClCompile Include="1717(집합의 표현).cpp" />
     <ClCompile Include="17427(약수의 합 2).cpp" />
     <ClCompile Include="1744.cpp" />
     <ClCompile Include="17478(재귀함수가 뭔가요).cpp" />
@@ -289,6 +290,7 @@
     <ClCompile Include="5427(불).cpp" />
     <ClCompile Include="5557(1학년).cpp" />
     <ClCompile Include="5567.cpp" />
+    <ClCompile Include="6087(레이저통신).cpp" />
     <ClCompile Include="6321.cpp" />
     <ClCompile Include="6679.cpp" />
     <ClCompile Include="7576(토마토).cpp" />
