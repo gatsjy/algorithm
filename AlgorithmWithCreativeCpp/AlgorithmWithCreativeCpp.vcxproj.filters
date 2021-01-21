@@ -38,9 +38,6 @@
     <ClCompile Include="9.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="10.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="11.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
@@ -164,9 +161,6 @@
     <ClCompile Include="62.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="67.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="68.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
@@ -186,9 +180,6 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="76.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="77.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="78.cpp">
@@ -228,6 +219,15 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="소스.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="10%28자리수세기%29.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="67%28dfs%29.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="77%28unf%29.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
