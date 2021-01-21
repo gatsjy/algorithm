@@ -52,8 +52,6 @@ int main() {
 			if (nx < 0 || ny < 0 || nx >= h || ny >= w) continue;
 			if (board[nx][ny] == '*') continue;
 			// 만약 가려는 곳의 거울의 수가 더 적은걸로 업데이트한다.
-			// 만약 이전의 ch의 mirrir수와 새로운 nmirror수가 같더라도 다시 bfs를 돌려야 한다. -> 이점 명시하기!!
-			// 하지만 정확한 증거를 도출해내지 못함..
 			if (ch[nx][ny] >= nmirror) {
 				q.push({ {nx,ny},{i,nmirror} });
 				ch[nx][ny] = nmirror;
