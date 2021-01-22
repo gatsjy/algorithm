@@ -233,6 +233,7 @@
     <ClCompile Include="16507.cpp" />
     <ClCompile Include="16926(배열 돌리기1).cpp" />
     <ClCompile Include="16928(뱀과 사다리 게임).cpp" />
+    <ClCompile Include="16929(Two Dots).cpp" />
     <ClCompile Include="16938(캠프준비).cpp" />
     <ClCompile Include="16940(BFS 스페셜 저지).cpp" />
     <ClCompile Include="16948(데스 나이트).cpp" />
