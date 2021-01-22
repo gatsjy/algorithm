@@ -267,6 +267,7 @@
     <ClCompile Include="2178(미로찾기).cpp" />
     <ClCompile Include="2204.cpp" />
     <ClCompile Include="2206%28벽부수고이동하기%29_OXXX.cpp" />
+    <ClCompile Include="2210(숫자판점프).cpp" />
     <ClCompile Include="2293(동전 1).cpp" />
     <ClCompile Include="2346.cpp" />
     <ClCompile Include="2420.cpp" />
