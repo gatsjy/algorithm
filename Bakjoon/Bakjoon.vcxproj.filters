@@ -501,9 +501,6 @@
     <ClCompile Include="1717(집합의 표현).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="티시스2.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="2210(숫자판점프).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
