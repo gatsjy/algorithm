@@ -5,58 +5,43 @@ using namespace std;
 typedef long long ll;
 int n;
 int aa, bb, cc, dd; // µ¡¼À, »¬¼À, °ö¼À, ³ª´°¼À
-vector<ll> a;
-vector<ll> v;
-ll  max_res = -2147000000;
+vector<ll> a(12);
+vector<ll> v(5);
+ll max_res = -2147000000;
 ll min_res = 2147000000;
-void dfs() {
-	if (v.size() == n-1) {
-		int taa = 0, tbb = 0, tcc = 0, tdd = 0;
-		for (int i = 0; i < v.size(); i++) {
-			if (v[i] == 0) taa++;
-			if (v[i] == 1) tbb++;
-			if (v[i] == 2) tcc++;
-			if (v[i] == 3) tdd++;
-		}
-		int tsum = 0;
-		if (taa <= aa && tbb <= bb && tcc <= cc && tdd <= dd) {
-			tsum = a[0];
-			for (int i = 1; i < a.size(); i++) {
-				if (v[i - 1] == 0) {
-					tsum += a[i];
-				}
-				else if (v[i - 1] == 1) {
-					tsum -= a[i];
-				}
-				else if (v[i - 1] == 2) {
-					tsum *= a[i];
-				}
-				else if (v[i - 1] == 3) {
-					tsum /= a[i];
-				}
-			}
-		}
-		if (tsum > max_res) max_res = tsum;
-		if (tsum < min_res) min_res = tsum;
+
+void solution(int sum, int idx, int aa, int bb, int cc, int dd) {
+	if (idx == n) {
+		if (sum > max_res) max_res = sum;
+		if (sum < min_res) min_res = sum;
 		return;
 	}
-	for (int i = 0; i < 4; i++) {
-		v.push_back(i);
-		dfs();
-		v.pop_back();
+	if (aa > 0) {
+		solution(sum + a[idx], idx + 1, aa-1, bb, cc, dd);
+	}
+	if (bb > 0) {
+		solution(sum - a[idx], idx + 1, aa, bb-1, cc, dd);
+	}
+	if (cc > 0) {
+		solution(sum * a[idx], idx + 1, aa, bb, cc-1, dd);
+	}
+	if (dd > 0) {
+		solution(sum / a[idx], idx + 1, aa, bb, cc, dd-1);
 	}
 }
+
 int main() {
 	cin >> n;
-	a.resize(n);
 	for (int i = 0; i < n; i++) {
 		cin >> a[i];
 	}
-	cin >> aa >> bb >> cc >> dd;
 
-	dfs();
+	for (int i = 1; i <= 4; i++) {
+		cin >> v[i];
+	}
 
+	solution(a[0], 1, v[1], v[2], v[3], v[4]);
 	cout << max_res << "\n";
-	cout << min_res << "\n";
+	cout << min_res;
 	return 0;
 }
