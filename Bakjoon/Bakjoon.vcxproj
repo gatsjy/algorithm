@@ -204,6 +204,7 @@
     <ClCompile Include="14489.cpp" />
     <ClCompile Include="14499(주사위굴리기).cpp" />
     <ClCompile Include="14500(테트로미노).cpp" />
+    <ClCompile Include="14503(로봇청소기).cpp" />
     <ClCompile Include="14592.cpp" />
     <ClCompile Include="14620(꽃길).cpp" />
     <ClCompile Include="1463(1로 만들기).cpp" />
