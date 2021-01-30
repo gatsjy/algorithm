@@ -519,5 +519,8 @@
     <ClCompile Include="14620(꽃길).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="1937(욕심쟁이 판다).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
