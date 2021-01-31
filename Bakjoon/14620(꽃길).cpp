@@ -5,27 +5,25 @@
 //
 //using namespace std;
 //
-//int dx[4] = { 1,0,-1,0 };
-//int dy[4] = { 0,1,0,-1 };
+//int dx[4] = { 1,0,-1,0};
+//int dy[4] = { 0,1,0,-1};
 //
 //int ch[101];
 //vector<int> a;
 //int n;
 //int board[101][101];
 //int res = 2147000000;
-//bool isOverlap(vector<int> a) {
-//    map<int, int> ch;
+//bool isOverlap(vector<int> tmp) {
+//    int dch[101] = { 0, };
 //    for (int i = 0; i < a.size(); i++) {
-//        ch[a[i]]++;
-//        if (ch[a[i]] > 1) return true;
-//        ch[a[i] + 1]++;
-//        if (ch[a[i] + 1] > 1) return true;
-//        ch[a[i] - 1]++;
-//        if (ch[a[i] - 1] > 1) return true;
-//        ch[a[i] - n]++;
-//        if (ch[a[i] - n] > 1) return true;
-//        ch[a[i] + n]++;
-//        if (ch[a[i] + n] > 1) return true;
+//        dch[tmp[i] + 1]++;
+//        dch[tmp[i] - 1]++;
+//        dch[tmp[i] + n]++;
+//        dch[tmp[i] - n]++;
+//        dch[tmp[i]]++;
+//    }
+//    for (int i = 0; i < 101; i++) {
+//        if (dch[i] > 1) return true;
 //    }
 //    return false;
 //}
@@ -39,29 +37,6 @@
 //    return sum;
 //}
 //
-//// https://www.acmicpc.net/problem/14620
-//void dfs(int idx) {
-//    if (a.size() == 3) {
-//        //for (int i = 0; i < a.size(); i++) {
-//        //    cout << a[i] << " ";
-//        //}
-//        //cout << "\n";
-//        // 1. ¼¼°³ÀÇ Á¡ÀÇ ÇÉ ²ÉÀÌ °ãÄ¡´ÂÁö È®ÀÎ
-//        if (isOverlap(a)) return;
-//        res = min(res, calCost(a[0])+calCost(a[1])+calCost(a[2]));
-//    }
-//    else {
-//        for (int i = idx; i < n * n - (n+1) ; i++) {
-//            if (ch[i] == 0) {
-//                a.push_back(i);
-//                ch[i] = 1;
-//                dfs(i + 1);
-//                a.pop_back();
-//                ch[i] = 0;
-//            }
-//        }
-//    }
-//}
 //int main() {
 //    cin >> n;
 //
@@ -71,7 +46,20 @@
 //        }
 //    }
 //
-//    dfs(n+1);
+//    for (int i = 1; i < n * n - (n + 1); i++) {
+//        for (int j = i + 1; j < n * n - (n + 1); j++) {
+//            for(int k = j+1; k < n * n - (n + 1); k++){
+//                vector<int> tmp;
+//                tmp.push_back(i);
+//                tmp.push_back(j);
+//                tmp.push_back(k);
+//                if (!isOverlap(tmp)) {
+//                    res = min(res, calCost(i)+ calCost(j)+ calCost(k));
+//                    cout << res << "\n";
+//                }
+//            }
+//        }
+//    }
 //
 //    cout << res;
 //

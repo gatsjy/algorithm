@@ -250,6 +250,7 @@
     <ClCompile Include="1717(집합의 표현).cpp" />
     <ClCompile Include="17427(약수의 합 2).cpp" />
     <ClCompile Include="1744.cpp" />
+    <ClCompile Include="1747(소수and펠린드롬).cpp" />
     <ClCompile Include="17478(재귀함수가 뭔가요).cpp" />
     <ClCompile Include="1748(수 이어쓰기 1).cpp" />
     <ClCompile Include="17503(맥주 축제).cpp" />
