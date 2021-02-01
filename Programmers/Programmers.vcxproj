@@ -141,6 +141,7 @@
   <ItemGroup>
     <ClCompile Include="단어 반환.cpp" />
     <ClCompile Include="등굣길.cpp" />
+    <ClCompile Include="메뉴리뉴얼.cpp" />
     <ClCompile Include="불량사용자.cpp" />
     <ClCompile Include="여행경로.cpp" />
     <ClCompile Include="추석트래픽.cpp" />
