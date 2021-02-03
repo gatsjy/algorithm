@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="뉴스클러스터링.cpp" />
     <ClCompile Include="단어 반환.cpp" />
     <ClCompile Include="등굣길.cpp" />
     <ClCompile Include="메뉴리뉴얼.cpp" />
