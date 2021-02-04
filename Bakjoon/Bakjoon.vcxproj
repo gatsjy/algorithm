@@ -150,6 +150,7 @@
     <ClCompile Include="10799.cpp" />
     <ClCompile Include="10804(카드역배치).cpp" />
     <ClCompile Include="10872.cpp" />
+    <ClCompile Include="1092(배).cpp" />
     <ClCompile Include="10951.cpp" />
     <ClCompile Include="10971(외판원 순회 2).cpp" />
     <ClCompile Include="10972%28다음 순열%29.cpp" />
@@ -286,6 +287,7 @@
     <ClCompile Include="2579(계단 오르기).cpp" />
     <ClCompile Include="2589(보물섬).cpp" />
     <ClCompile Include="2636(치즈).cpp" />
+    <ClCompile Include="2668(숫자고르기).cpp" />
     <ClCompile Include="2669(직사각형 네개의 합집합의 면적 구하기).cpp" />
     <ClCompile Include="2846(오르막길).cpp" />
     <ClCompile Include="3003.cpp" />
