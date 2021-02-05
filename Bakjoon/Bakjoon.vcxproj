@@ -196,6 +196,7 @@
     <ClCompile Include="1337.cpp" />
     <ClCompile Include="1342(행운의 문자열).cpp" />
     <ClCompile Include="13549(숨바꼭질 3).cpp" />
+    <ClCompile Include="1360(되돌리기).cpp" />
     <ClCompile Include="13752.cpp" />
     <ClCompile Include="14002(가장 긴 증가하는 부분 수열 4).cpp" />
     <ClCompile Include="1406(에디터).cpp" />
