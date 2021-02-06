@@ -311,6 +311,7 @@
     <ClCompile Include="8892(팰린드롬).cpp" />
     <ClCompile Include="9086.cpp" />
     <ClCompile Include="9095(1, 2, 3 더하기).cpp" />
+    <ClCompile Include="9465(스티커).cpp" />
     <ClCompile Include="9466.cpp" />
     <ClCompile Include="9663(N-Queen).cpp" />
     <ClCompile Include="1182%28부분수열의 합%29.cpp" />
