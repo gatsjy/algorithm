@@ -540,5 +540,8 @@
     <ClCompile Include="1360(되돌리기).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="12852(1로 만들기 2).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
