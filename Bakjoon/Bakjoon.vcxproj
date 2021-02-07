@@ -149,6 +149,7 @@
     <ClCompile Include="1072(게임).cpp" />
     <ClCompile Include="10799.cpp" />
     <ClCompile Include="10804(카드역배치).cpp" />
+    <ClCompile Include="10833(사과).cpp" />
     <ClCompile Include="10872.cpp" />
     <ClCompile Include="1092(배).cpp" />
     <ClCompile Include="10951.cpp" />
@@ -184,6 +185,7 @@
     <ClCompile Include="1259.cpp" />
     <ClCompile Include="12605.cpp" />
     <ClCompile Include="1261(알고스팟).cpp" />
+    <ClCompile Include="1271(엄청난 부자2).cpp" />
     <ClCompile Include="12761(돌다리).cpp" />
     <ClCompile Include="12813(이진수 연산).cpp" />
     <ClCompile Include="12851(숨바꼭질 2).cpp" />
