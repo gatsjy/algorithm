@@ -40,7 +40,7 @@ int main() {
 	cout << cnt << "\n";
 	for (int i = 1; i <= n; i++) {
 		if (res[i] == 1) {
-			cout << i << "\n";
+			cout << i << " ";
 		}
 	}
 

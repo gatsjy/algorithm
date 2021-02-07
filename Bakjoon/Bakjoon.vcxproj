@@ -274,6 +274,7 @@
     <ClCompile Include="1965(상자넣기).cpp" />
     <ClCompile Include="1966.cpp" />
     <ClCompile Include="2003.cpp" />
+    <ClCompile Include="20056(마법사 상어와 파이어볼).cpp" />
     <ClCompile Include="2018(수들의 합 5).cpp" />
     <ClCompile Include="2108(통계학).cpp" />
     <ClCompile Include="2178(미로찾기).cpp" />
@@ -281,6 +282,7 @@
     <ClCompile Include="2206%28벽부수고이동하기%29_OXXX.cpp" />
     <ClCompile Include="2210(숫자판점프).cpp" />
     <ClCompile Include="2293(동전 1).cpp" />
+    <ClCompile Include="2302(극장 좌석).cpp" />
     <ClCompile Include="2346.cpp" />
     <ClCompile Include="2420.cpp" />
     <ClCompile Include="2512(예산).cpp" />
