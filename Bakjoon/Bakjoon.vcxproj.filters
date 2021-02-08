@@ -558,5 +558,8 @@
     <ClCompile Include="1271(엄청난 부자2).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="1331(나이트 투어).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
