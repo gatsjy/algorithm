@@ -183,6 +183,7 @@
     <ClCompile Include="1235.cpp" />
     <ClCompile Include="1244.cpp" />
     <ClCompile Include="1259.cpp" />
+    <ClCompile Include="1260(DFS와BFS).cpp" />
     <ClCompile Include="12605.cpp" />
     <ClCompile Include="1261(알고스팟).cpp" />
     <ClCompile Include="1271(엄청난 부자2).cpp" />

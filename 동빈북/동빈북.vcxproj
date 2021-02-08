@@ -141,7 +141,10 @@
     <ClCompile Include="1이 될 때까지.cpp" />
     <ClCompile Include="곱하기혹은더하기.cpp" />
     <ClCompile Include="모험가길드.cpp" />
+    <ClCompile Include="문자열재정렬.cpp" />
     <ClCompile Include="시각.cpp" />
+    <ClCompile Include="음료수 얼려 먹기.cpp" />
+    <ClCompile Include="재귀함수종료조건.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
