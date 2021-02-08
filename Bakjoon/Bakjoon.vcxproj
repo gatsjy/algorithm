@@ -287,6 +287,7 @@
     <ClCompile Include="2210(숫자판점프).cpp" />
     <ClCompile Include="2293(동전 1).cpp" />
     <ClCompile Include="2302(극장 좌석).cpp" />
+    <ClCompile Include="2310(어드벤처 게임).cpp" />
     <ClCompile Include="2346.cpp" />
     <ClCompile Include="2420.cpp" />
     <ClCompile Include="2512(예산).cpp" />
