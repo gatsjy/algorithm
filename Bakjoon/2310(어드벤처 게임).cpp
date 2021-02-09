@@ -1,92 +1,80 @@
 #include <bits/stdc++.h>
 
 // 아무리 찾아본 코드라도 내 손으로 짤 수 없으면 내것이 아니다!
-
 using namespace std;
 
-struct Person {
-	int money = 0;
-	int cur = 1;
-};
+#define MAX 1005
 
-vector<pair<string, int>> rooms;
-vector<vector<int>> graph;
-int ch[1001];
-int n;
-string s;
-int a, b;
+namespace _2310 {
+	struct {
+		char type;
+		int cost;
+	} room[MAX];
 
-void dfs(int v, Person& p, bool& flag) {
-	if (flag) return;
-	ch[v] = 1;
-	p.cur = v;
-	//if (p.cur == n) {
-	//	flag = true;
-	//	return;
-	//}
-	if (rooms[v].first == "E") {
-		for (int i = 0; i < graph[v].size(); i++) {
-			int next = graph[v][i];
-			if (ch[next] == 0) {
-				dfs(next, p, flag);
+	vector<int> graph[MAX];
+	int n, b, c;
+	char a;
+	bool res = false;
+	int ch[MAX];
+
+	void dfs(int v, int money) {
+		if (room[v].type == 'L' && room[v].cost > money) {
+			money = room[v].cost;
+		}
+		else if (room[v].type == 'T') {
+			if (money < room[v].cost) {
+				return;
+			}
+			else {
+				money -= room[v].cost;
 			}
 		}
-	}
-	else if (rooms[v].first == "L") {
-		if (p.money < rooms[v].second) {
-			p.money = rooms[v].second;
-		}
-		for (int i = 0; i < graph[v].size(); i++) {
-			int next = graph[v][i];
-			if (ch[next] == 0) {
-				dfs(next, p, flag);
-			}
-		}
-	}
-	else if (rooms[v].first == "T") {
-		if (p.money < rooms[v].second) {
-			flag = true;
+		// 일단 위의 조건을 충족시켰다면?
+		ch[v] = 1; // 체크처리하고
+		// 결과 값 판단한다.
+		if (v == n) {
+			res = true;
 			return;
 		}
 		else {
-			p.money -= rooms[v].second;
 			for (int i = 0; i < graph[v].size(); i++) {
 				int next = graph[v][i];
 				if (ch[next] == 0) {
-					dfs(next, p, flag);
+					dfs(next, money);
 				}
 			}
 		}
 	}
-}
-int main() {
-	while (1) {
-		cin >> n;
-		if (n == 0) break;
-		rooms.clear();
-		rooms.push_back({ "0",0 }); // 더미 넣어준다.
-		graph.clear();
-		graph.resize(n + 1);
-		memset(ch, 0, sizeof(ch));
-		for (int i = 1; i <= n; i++) {
-			cin >> s >> a;
-			rooms.push_back({ s,a });
-			while (1) {
-				cin >> b;
-				if (b == 0) break;
-				graph[i].push_back(b);
+	int main() {
+		while (1) {
+			cin >> n;
+			if (n == 0) break;
+			// 각종 값 초기화
+			for (int i = 0; i < MAX; i++) {
+				graph[i].clear();
+			}
+			res = false;
+			memset(ch, 0, sizeof(ch));
+			for (int i = 1; i <= n; i++) {
+				cin >> a >> b >> c;
+				room[i] = { a,b };
+				while (c != 0) {
+					graph[i].push_back(c);
+					cin >> c;
+				}
+			}
+
+			// 시작방은 1, 시작 돈은 0원
+			dfs(1, 0);
+
+			if (res) {
+				cout << "Yes" << "\n";
+			}
+			else {
+				cout << "No" << "\n";
 			}
 		}
-		Person person;
-		bool flag = false;
-		dfs(1, person, flag);
-		if (person.cur == n) {
-			cout << "Yes" << "\n";
-		}
-		else {
-			cout << "No" << "\n";
-		}
+		return 0;
 	}
 
-	return 0;
 }

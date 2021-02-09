@@ -277,6 +277,7 @@
     <ClCompile Include="1937(욕심쟁이 판다).cpp" />
     <ClCompile Include="1965(상자넣기).cpp" />
     <ClCompile Include="1966.cpp" />
+    <ClCompile Include="1987(알파벳).cpp" />
     <ClCompile Include="2003.cpp" />
     <ClCompile Include="20056(마법사 상어와 파이어볼).cpp" />
     <ClCompile Include="2018(수들의 합 5).cpp" />
