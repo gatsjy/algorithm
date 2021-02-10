@@ -570,5 +570,11 @@
     <ClCompile Include="1987(알파벳).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="13565(침투).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1405(미친로봇).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
