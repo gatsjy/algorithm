@@ -576,5 +576,8 @@
     <ClCompile Include="1405(미친로봇).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="14716(현수막).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
