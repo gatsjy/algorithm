@@ -295,6 +295,7 @@
     <ClCompile Include="2310(어드벤처 게임).cpp" />
     <ClCompile Include="2346.cpp" />
     <ClCompile Include="2420.cpp" />
+    <ClCompile Include="2458(키순서).cpp" />
     <ClCompile Include="2512(예산).cpp" />
     <ClCompile Include="2556.cpp" />
     <ClCompile Include="2573(빙하).cpp" />
