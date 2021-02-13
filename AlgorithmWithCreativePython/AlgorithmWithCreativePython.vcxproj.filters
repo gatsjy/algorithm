@@ -18,5 +18,13 @@
     <None Include="1000(A+B).py">
       <Filter>소스 파일</Filter>
     </None>
+    <None Include="2.변수입력과연산자.py">
+      <Filter>소스 파일</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="15740%28A+B - 9%29.py">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
