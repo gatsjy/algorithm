@@ -18,7 +18,13 @@
     <None Include="1000(A+B).py">
       <Filter>소스 파일</Filter>
     </None>
-    <None Include="2.변수입력과연산자.py">
+    <None Include="3. 조건문%28if분기문, 다중if문%29.py">
+      <Filter>소스 파일</Filter>
+    </None>
+    <None Include="2. 변수입력과연산자.py">
+      <Filter>소스 파일</Filter>
+    </None>
+    <None Include="4. 반복문(for, while, break, continue).py">
       <Filter>소스 파일</Filter>
     </None>
   </ItemGroup>
