@@ -142,6 +142,7 @@
     <None Include="2. 변수입력과연산자.py" />
     <None Include="3. 조건문%28if분기문, 다중if문%29.py" />
     <None Include="4. 반복문(for, while, break, continue).py" />
+    <None Include="5. 반복문을 이용한 문제 풀이.py" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="15740%28A+B - 9%29.py" />

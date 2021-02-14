@@ -27,6 +27,9 @@
     <None Include="4. 반복문(for, while, break, continue).py">
       <Filter>소스 파일</Filter>
     </None>
+    <None Include="5. 반복문을 이용한 문제 풀이.py">
+      <Filter>소스 파일</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="15740%28A+B - 9%29.py">
