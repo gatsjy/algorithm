@@ -51,6 +51,12 @@
     <None Include="12. 람다함수.py">
       <Filter>소스 파일</Filter>
     </None>
+    <None Include="1. k번째 약수.py">
+      <Filter>소스 파일</Filter>
+    </None>
+    <None Include="2. k번째 수.py">
+      <Filter>소스 파일</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="15740%28A+B - 9%29.py">
