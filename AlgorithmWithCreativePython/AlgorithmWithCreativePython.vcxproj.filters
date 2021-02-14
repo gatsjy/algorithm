@@ -57,6 +57,21 @@
     <None Include="2. k번째 수.py">
       <Filter>소스 파일</Filter>
     </None>
+    <None Include="3. K번째 큰 수.py">
+      <Filter>소스 파일</Filter>
+    </None>
+    <None Include="[선수지식] 최솟값 구하기.py">
+      <Filter>소스 파일</Filter>
+    </None>
+    <None Include="4. 대표값.py">
+      <Filter>소스 파일</Filter>
+    </None>
+    <None Include="대표값 오류수정.py">
+      <Filter>소스 파일</Filter>
+    </None>
+    <None Include="5. 정다면체.py">
+      <Filter>소스 파일</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="15740%28A+B - 9%29.py">
