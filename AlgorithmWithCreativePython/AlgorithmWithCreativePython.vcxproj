@@ -151,6 +151,7 @@
     <None Include="4. 반복문(for, while, break, continue).py" />
     <None Include="5. 반복문을 이용한 문제 풀이.py" />
     <None Include="5. 정다면체.py" />
+    <None Include="6. 자릿수의 합.py" />
     <None Include="6. 중첩반복문(2중 for문).py" />
     <None Include="7. 문자열과 내장함수.py" />
     <None Include="8. 리스트와 내장함수(1).py" />
