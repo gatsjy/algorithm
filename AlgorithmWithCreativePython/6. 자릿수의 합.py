@@ -1,25 +1,11 @@
 '''
-자릿수의 합
+7. 소수의 개수(에라토스테네스 체)
 '''
 import sys
 #sys.stdin=open("input.txt","rt")
 
-def digit_sum(x):
-    tmp = 0
-    for i in str:
-        tmp += ord(i)-48
-    return tmp
-
 n = int(input())
-a = list(input().split())
 
-max = -2147000000
-res = a[0]
-for str in a:
-    tmp = digit_sum(str)
+a = [0]*n+1;
 
-    if tmp > max:
-        max = tmp
-        res = str
-
-print(res)
+print(a)

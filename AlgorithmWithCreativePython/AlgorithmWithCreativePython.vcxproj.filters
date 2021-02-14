@@ -75,6 +75,9 @@
     <None Include="6. 자릿수의 합.py">
       <Filter>소스 파일</Filter>
     </None>
+    <None Include="7. 소수의 개수(에라토스테네스 채).py">
+      <Filter>소스 파일</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="15740%28A+B - 9%29.py">

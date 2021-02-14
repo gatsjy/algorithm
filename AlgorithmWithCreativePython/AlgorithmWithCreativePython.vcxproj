@@ -154,6 +154,7 @@
     <None Include="6. 자릿수의 합.py" />
     <None Include="6. 중첩반복문(2중 for문).py" />
     <None Include="7. 문자열과 내장함수.py" />
+    <None Include="7. 소수의 개수(에라토스테네스 채).py" />
     <None Include="8. 리스트와 내장함수(1).py" />
     <None Include="9. 리스트와 내장함수(2).py" />
     <None Include="[선수지식] 최솟값 구하기.py" />
