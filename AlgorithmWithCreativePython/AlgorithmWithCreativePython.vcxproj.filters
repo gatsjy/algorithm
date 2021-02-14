@@ -30,6 +30,15 @@
     <None Include="5. 반복문을 이용한 문제 풀이.py">
       <Filter>소스 파일</Filter>
     </None>
+    <None Include="6. 중첩반복문(2중 for문).py">
+      <Filter>소스 파일</Filter>
+    </None>
+    <None Include="7. 문자열과 내장함수.py">
+      <Filter>소스 파일</Filter>
+    </None>
+    <None Include="8. 리스트와 내장함수(1).py">
+      <Filter>소스 파일</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="15740%28A+B - 9%29.py">
