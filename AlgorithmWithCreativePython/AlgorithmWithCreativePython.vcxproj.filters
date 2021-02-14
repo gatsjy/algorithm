@@ -39,6 +39,12 @@
     <None Include="8. 리스트와 내장함수(1).py">
       <Filter>소스 파일</Filter>
     </None>
+    <None Include="9. 리스트와 내장함수(2).py">
+      <Filter>소스 파일</Filter>
+    </None>
+    <None Include="10. 2차원 리스트 생성과 접근.py">
+      <Filter>소스 파일</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="15740%28A+B - 9%29.py">

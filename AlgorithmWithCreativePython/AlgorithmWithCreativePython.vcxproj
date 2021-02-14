@@ -138,6 +138,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <None Include="10. 2차원 리스트 생성과 접근.py" />
     <None Include="1000(A+B).py" />
     <None Include="2. 변수입력과연산자.py" />
     <None Include="3. 조건문%28if분기문, 다중if문%29.py" />
@@ -146,6 +147,7 @@
     <None Include="6. 중첩반복문(2중 for문).py" />
     <None Include="7. 문자열과 내장함수.py" />
     <None Include="8. 리스트와 내장함수(1).py" />
+    <None Include="9. 리스트와 내장함수(2).py" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="15740%28A+B - 9%29.py" />
