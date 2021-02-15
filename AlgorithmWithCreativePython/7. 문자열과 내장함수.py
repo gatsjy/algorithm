@@ -39,3 +39,5 @@ for x in tmp:
 # 아스키 넘버에 해당하는 문자 출력하기
 tmp=65
 print(chr(tmp))
+
+## 문자열 거꾸로 바꾸기 print(s[::-1])

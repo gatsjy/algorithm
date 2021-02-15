@@ -139,6 +139,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <None Include="1. k번째 약수.py" />
+    <None Include="1. 회문 문자열 검사.py" />
     <None Include="10. 2차원 리스트 생성과 접근.py" />
     <None Include="10. 점수계산.py" />
     <None Include="1000(A+B).py" />
@@ -146,9 +147,12 @@
     <None Include="12. 람다함수.py" />
     <None Include="2. k번째 수.py" />
     <None Include="2. 변수입력과연산자.py" />
+    <None Include="2. 숫자만 추출.py" />
     <None Include="3. K번째 큰 수.py" />
     <None Include="3. 조건문%28if분기문, 다중if문%29.py" />
+    <None Include="3. 카드 역배치.py" />
     <None Include="4. 대표값.py" />
+    <None Include="4. 두 리스트 합치기.py" />
     <None Include="4. 반복문(for, while, break, continue).py" />
     <None Include="5. 반복문을 이용한 문제 풀이.py" />
     <None Include="5. 정다면체.py" />
