@@ -78,6 +78,12 @@
     <None Include="7. 소수의 개수(에라토스테네스 채).py">
       <Filter>소스 파일</Filter>
     </None>
+    <None Include="8. 뒤집은 소수.py">
+      <Filter>소스 파일</Filter>
+    </None>
+    <None Include="9. 주사위 게임.py">
+      <Filter>소스 파일</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="15740%28A+B - 9%29.py">
