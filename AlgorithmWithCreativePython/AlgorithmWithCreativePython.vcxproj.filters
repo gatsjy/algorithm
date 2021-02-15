@@ -84,6 +84,9 @@
     <None Include="9. 주사위 게임.py">
       <Filter>소스 파일</Filter>
     </None>
+    <None Include="10. 점수계산.py">
+      <Filter>소스 파일</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="15740%28A+B - 9%29.py">

@@ -140,6 +140,7 @@
   <ItemGroup>
     <None Include="1. k번째 약수.py" />
     <None Include="10. 2차원 리스트 생성과 접근.py" />
+    <None Include="10. 점수계산.py" />
     <None Include="1000(A+B).py" />
     <None Include="11. 함수만들기.py" />
     <None Include="12. 람다함수.py" />
