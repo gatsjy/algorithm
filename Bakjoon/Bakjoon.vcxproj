@@ -178,6 +178,7 @@
     <ClCompile Include="11931.cpp" />
     <ClCompile Include="11945.cpp" />
     <ClCompile Include="11967(불켜기).cpp" />
+    <ClCompile Include="1197(최소 스패닝 트리).cpp" />
     <ClCompile Include="1202(보석 도둑).cpp" />
     <ClCompile Include="1208.cpp" />
     <ClCompile Include="1213(팰린드롬만들기).cpp" />
@@ -234,6 +235,7 @@
     <ClCompile Include="15661(링크와 스타트).cpp" />
     <ClCompile Include="15662(톱니바퀴(2)).cpp" />
     <ClCompile Include="15683(감시).cpp" />
+    <ClCompile Include="15684(사다리조작).cpp" />
     <ClCompile Include="15686(치킨배달).cpp" />
     <ClCompile Include="15688.cpp" />
     <ClCompile Include="15810(풍선 공장).cpp" />
@@ -245,6 +247,7 @@
     <ClCompile Include="16234(인구 이동).cpp" />
     <ClCompile Include="16236(아기상어).cpp" />
     <ClCompile Include="1629(곱셈).cpp" />
+    <ClCompile Include="1647(도시분할계획).cpp" />
     <ClCompile Include="16503.cpp" />
     <ClCompile Include="16505(별).cpp" />
     <ClCompile Include="16507.cpp" />

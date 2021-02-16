@@ -1,33 +1,26 @@
 '''
-4. 두 리스트 합치기
+카드 역배치
 '''
 import sys
-#sys.stdin=open("input.txt","rt")
-    
-a = int(input())
-aa = list(map(int,input().split()))
-b = int(input())
-bb = list(map(int,input().split()))
+sys.stdin=open("input.txt","rt")
 
-aidx = 0
-bidx = 0
-
-cc = list()
-while aidx<a and bidx<b:
-    if aa[aidx]<=bb[bidx]:
-        cc.append(aa[aidx])
-        aidx +=1
+n=int(input())
+a=list(map(int, input().split()))
+m=int(input())
+b=list(map(int, input().split()))
+p1=p2=0
+c=[]
+while p1<n and p2<m:
+    if a[p1]<=b[p2]:
+        c.append(a[p1])
+        p1+=1
     else:
-        cc.append(bb[bidx])
-        bidx +=1
+        c.append(b[p2])
+        p2+=1
 
-while aidx<a:
-    cc.append(aa[aidx])
-    aidx +=1
+if p1<n:
+    c=c+a[p1:]
+else:
+    c=c+b[p2:]
 
-while bidx<b:
-    cc.append(bb[bidx])
-    bidx +=1
-
-for n in cc:
-    print(n, end=' ')
+print(c)
