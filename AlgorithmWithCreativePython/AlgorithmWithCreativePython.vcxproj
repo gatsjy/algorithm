@@ -144,6 +144,7 @@
     <None Include="10. 점수계산.py" />
     <None Include="1000(A+B).py" />
     <None Include="11. 함수만들기.py" />
+    <None Include="1166(선물).py" />
     <None Include="12. 람다함수.py" />
     <None Include="2. k번째 수.py" />
     <None Include="2. 변수입력과연산자.py" />
