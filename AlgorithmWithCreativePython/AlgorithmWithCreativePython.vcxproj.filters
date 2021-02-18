@@ -108,6 +108,15 @@
     <None Include="9. 봉우리.py">
       <Filter>소스 파일</Filter>
     </None>
+    <None Include="10. 스토쿠 검사.py">
+      <Filter>소스 파일</Filter>
+    </None>
+    <None Include="11. 격자판 회문수.py">
+      <Filter>소스 파일</Filter>
+    </None>
+    <None Include="1. 이분검색.py">
+      <Filter>소스 파일</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="15740%28A+B - 9%29.py">

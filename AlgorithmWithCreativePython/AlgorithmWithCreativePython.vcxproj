@@ -139,10 +139,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <None Include="1. k번째 약수.py" />
+    <None Include="1. 이분검색.py" />
     <None Include="1. 회문 문자열 검사.py" />
     <None Include="10. 2차원 리스트 생성과 접근.py" />
+    <None Include="10. 스토쿠 검사.py" />
     <None Include="10. 점수계산.py" />
     <None Include="1000(A+B).py" />
+    <None Include="11. 격자판 회문수.py" />
     <None Include="11. 함수만들기.py" />
     <None Include="1166(선물).py" />
     <None Include="12. 람다함수.py" />
