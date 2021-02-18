@@ -105,6 +105,9 @@
     <None Include="1166(선물).py">
       <Filter>소스 파일</Filter>
     </None>
+    <None Include="9. 봉우리.py">
+      <Filter>소스 파일</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="15740%28A+B - 9%29.py">
