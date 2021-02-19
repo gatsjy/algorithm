@@ -150,6 +150,7 @@
     <None Include="1166(선물).py" />
     <None Include="12. 람다함수.py" />
     <None Include="2. k번째 수.py" />
+    <None Include="2. 랜선 자르기.py" />
     <None Include="2. 변수입력과연산자.py" />
     <None Include="2. 숫자만 추출.py" />
     <None Include="3. K번째 큰 수.py" />
