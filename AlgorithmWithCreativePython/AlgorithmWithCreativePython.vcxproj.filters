@@ -135,6 +135,9 @@
     <None Include="9. 증가 수열 만들기.py">
       <Filter>소스 파일</Filter>
     </None>
+    <None Include="역수열.py">
+      <Filter>소스 파일</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="15740%28A+B - 9%29.py">
