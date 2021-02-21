@@ -120,6 +120,15 @@
     <None Include="2. 랜선 자르기.py">
       <Filter>소스 파일</Filter>
     </None>
+    <None Include="1931(회의실 배정).py">
+      <Filter>소스 파일</Filter>
+    </None>
+    <None Include="4. 마구간정하기.py">
+      <Filter>소스 파일</Filter>
+    </None>
+    <None Include="7. 창고정리.py">
+      <Filter>소스 파일</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="15740%28A+B - 9%29.py">
