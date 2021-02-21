@@ -129,6 +129,12 @@
     <None Include="7. 창고정리.py">
       <Filter>소스 파일</Filter>
     </None>
+    <None Include="8. 침몰하는 타이타닉).py">
+      <Filter>소스 파일</Filter>
+    </None>
+    <None Include="9. 증가 수열 만들기.py">
+      <Filter>소스 파일</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="15740%28A+B - 9%29.py">

@@ -170,10 +170,12 @@
     <None Include="7. 소수의 개수(에라토스테네스 채).py" />
     <None Include="7. 창고정리.py" />
     <None Include="8. 리스트와 내장함수(1).py" />
+    <None Include="8. 침몰하는 타이타닉).py" />
     <None Include="9. 리스트와 내장함수(2).py" />
     <None Include="8. 뒤집은 소수.py" />
     <None Include="9. 봉우리.py" />
     <None Include="9. 주사위 게임.py" />
+    <None Include="9. 증가 수열 만들기.py" />
     <None Include="[선수지식] 최솟값 구하기.py" />
     <None Include="대표값 오류수정.py" />
   </ItemGroup>
