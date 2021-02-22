@@ -138,6 +138,12 @@
     <None Include="역수열.py">
       <Filter>소스 파일</Filter>
     </None>
+    <None Include="1. 가장 큰 수(스택).py">
+      <Filter>소스 파일</Filter>
+    </None>
+    <None Include="3. 후위 표기식 만들기.py">
+      <Filter>소스 파일</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="15740%28A+B - 9%29.py">

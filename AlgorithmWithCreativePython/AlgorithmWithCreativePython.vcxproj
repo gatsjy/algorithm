@@ -139,6 +139,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <None Include="1. k번째 약수.py" />
+    <None Include="1. 가장 큰 수(스택).py" />
     <None Include="1. 이분검색.py" />
     <None Include="1. 회문 문자열 검사.py" />
     <None Include="10. 2차원 리스트 생성과 접근.py" />
@@ -157,6 +158,7 @@
     <None Include="3. K번째 큰 수.py" />
     <None Include="3. 조건문%28if분기문, 다중if문%29.py" />
     <None Include="3. 카드 역배치.py" />
+    <None Include="3. 후위 표기식 만들기.py" />
     <None Include="4. 대표값.py" />
     <None Include="4. 두 리스트 합치기.py" />
     <None Include="4. 마구간정하기.py" />
