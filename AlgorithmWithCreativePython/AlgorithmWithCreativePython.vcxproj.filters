@@ -144,6 +144,12 @@
     <None Include="3. 후위 표기식 만들기.py">
       <Filter>소스 파일</Filter>
     </None>
+    <None Include="4. 후위식 연산.py">
+      <Filter>소스 파일</Filter>
+    </None>
+    <None Include="5. 공주구하기(큐).py">
+      <Filter>소스 파일</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="15740%28A+B - 9%29.py">
