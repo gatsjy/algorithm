@@ -173,6 +173,7 @@
     <None Include="7. 문자열과 내장함수.py" />
     <None Include="7. 소수의 개수(에라토스테네스 채).py" />
     <None Include="7. 창고정리.py" />
+    <None Include="8. 단어찾기%28해쉬%29.py" />
     <None Include="8. 리스트와 내장함수(1).py" />
     <None Include="8. 침몰하는 타이타닉).py" />
     <None Include="9. 리스트와 내장함수(2).py" />

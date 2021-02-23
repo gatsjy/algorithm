@@ -150,6 +150,9 @@
     <None Include="5. 공주구하기(큐).py">
       <Filter>소스 파일</Filter>
     </None>
+    <None Include="8. 단어찾기%28해쉬%29.py">
+      <Filter>소스 파일</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="15740%28A+B - 9%29.py">
