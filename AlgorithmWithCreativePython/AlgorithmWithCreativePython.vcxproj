@@ -184,7 +184,10 @@
     <None Include="9. 증가 수열 만들기.py" />
     <None Include="[선수지식] 최솟값 구하기.py" />
     <None Include="대표값 오류수정.py" />
+    <None Include="동전구하기.py" />
+    <None Include="순열구하기.py" />
     <None Include="역수열.py" />
+    <None Include="조합구하기.py" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="15740%28A+B - 9%29.py" />
