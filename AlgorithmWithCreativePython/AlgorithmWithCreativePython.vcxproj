@@ -185,8 +185,10 @@
     <None Include="[선수지식] 최솟값 구하기.py" />
     <None Include="대표값 오류수정.py" />
     <None Include="동전구하기.py" />
+    <None Include="수들의조합.py" />
     <None Include="순열구하기.py" />
     <None Include="역수열.py" />
+    <None Include="인접행렬.py" />
     <None Include="조합구하기.py" />
   </ItemGroup>
   <ItemGroup>
