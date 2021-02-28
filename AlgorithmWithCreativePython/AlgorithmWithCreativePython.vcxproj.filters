@@ -179,5 +179,8 @@
     <ClCompile Include="부분집합 구하기.py">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="경로탐색.py">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
