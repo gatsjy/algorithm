@@ -171,6 +171,15 @@
     <None Include="인접행렬.py">
       <Filter>소스 파일</Filter>
     </None>
+    <None Include="최대점수 구하기.py">
+      <Filter>소스 파일</Filter>
+    </None>
+    <None Include="최대점수구하기.py">
+      <Filter>소스 파일</Filter>
+    </None>
+    <None Include="미로의 최단거리.py">
+      <Filter>소스 파일</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="15740%28A+B - 9%29.py">
