@@ -182,21 +182,29 @@
     <None Include="9. 봉우리.py" />
     <None Include="9. 주사위 게임.py" />
     <None Include="9. 증가 수열 만들기.py" />
+    <None Include="set자료형.py" />
     <None Include="[선수지식] 최솟값 구하기.py" />
+    <None Include="게임개발.py" />
     <None Include="대표값 오류수정.py" />
     <None Include="동전구하기.py" />
+    <None Include="등산경로.py" />
     <None Include="미로의 최단거리.py" />
     <None Include="수들의조합.py" />
     <None Include="순열구하기.py" />
+    <None Include="시각.py" />
     <None Include="역수열.py" />
+    <None Include="음료수얼려먹기.py" />
     <None Include="인접행렬.py" />
     <None Include="조합구하기.py" />
     <None Include="최대점수 구하기.py" />
     <None Include="최대점수구하기.py" />
+    <None Include="큐.py" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="15740%28A+B - 9%29.py" />
     <ClCompile Include="경로탐색.py" />
+    <ClCompile Include="단지번호붙이기(DFS).cpp" />
+    <ClCompile Include="미로탐색.py" />
     <ClCompile Include="부분집합 구하기.py" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -180,6 +180,24 @@
     <None Include="미로의 최단거리.py">
       <Filter>소스 파일</Filter>
     </None>
+    <None Include="등산경로.py">
+      <Filter>소스 파일</Filter>
+    </None>
+    <None Include="set자료형.py">
+      <Filter>소스 파일</Filter>
+    </None>
+    <None Include="음료수얼려먹기.py">
+      <Filter>소스 파일</Filter>
+    </None>
+    <None Include="큐.py">
+      <Filter>소스 파일</Filter>
+    </None>
+    <None Include="게임개발.py">
+      <Filter>소스 파일</Filter>
+    </None>
+    <None Include="시각.py">
+      <Filter>소스 파일</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="15740%28A+B - 9%29.py">
@@ -189,6 +207,12 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="경로탐색.py">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="미로탐색.py">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="단지번호붙이기(DFS).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
