@@ -203,7 +203,8 @@
   <ItemGroup>
     <ClCompile Include="15740%28A+B - 9%29.py" />
     <ClCompile Include="경로탐색.py" />
-    <ClCompile Include="단지번호붙이기(DFS).cpp" />
+    <ClCompile Include="다익스트라알고리즘.py" />
+    <ClCompile Include="단지번호붙이기%28DFS%29.py" />
     <ClCompile Include="미로탐색.py" />
     <ClCompile Include="부분집합 구하기.py" />
   </ItemGroup>

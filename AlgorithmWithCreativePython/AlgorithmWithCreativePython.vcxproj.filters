@@ -212,7 +212,10 @@
     <ClCompile Include="미로탐색.py">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="단지번호붙이기(DFS).cpp">
+    <ClCompile Include="다익스트라알고리즘.py">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="단지번호붙이기%28DFS%29.py">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
