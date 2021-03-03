@@ -198,6 +198,12 @@
     <None Include="시각.py">
       <Filter>소스 파일</Filter>
     </None>
+    <None Include="전보.py">
+      <Filter>소스 파일</Filter>
+    </None>
+    <None Include="플로이드워셜알고리즘.py">
+      <Filter>소스 파일</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="15740%28A+B - 9%29.py">
