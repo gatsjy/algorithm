@@ -193,6 +193,7 @@
     <None Include="순열구하기.py" />
     <None Include="시각.py" />
     <None Include="역수열.py" />
+    <None Include="위상정렬.py" />
     <None Include="음료수얼려먹기.py" />
     <None Include="인접행렬.py" />
     <None Include="전보.py" />
