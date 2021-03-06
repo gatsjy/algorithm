@@ -184,6 +184,7 @@
     <None Include="9. 증가 수열 만들기.py" />
     <None Include="set자료형.py" />
     <None Include="[선수지식] 최솟값 구하기.py" />
+    <None Include="가장먼노드.py" />
     <None Include="게임개발.py" />
     <None Include="대표값 오류수정.py" />
     <None Include="동전구하기.py" />
@@ -198,6 +199,7 @@
     <None Include="위상정렬.py" />
     <None Include="음료수얼려먹기.py" />
     <None Include="인접행렬.py" />
+    <None Include="작업.py" />
     <None Include="전보.py" />
     <None Include="조합구하기.py" />
     <None Include="최대점수 구하기.py" />

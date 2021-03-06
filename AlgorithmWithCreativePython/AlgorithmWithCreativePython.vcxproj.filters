@@ -213,6 +213,12 @@
     <None Include="선수과목.py">
       <Filter>소스 파일</Filter>
     </None>
+    <None Include="작업.py">
+      <Filter>소스 파일</Filter>
+    </None>
+    <None Include="가장먼노드.py">
+      <Filter>소스 파일</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="15740%28A+B - 9%29.py">
