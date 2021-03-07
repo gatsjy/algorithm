@@ -171,9 +171,6 @@
     <None Include="인접행렬.py">
       <Filter>소스 파일</Filter>
     </None>
-    <None Include="최대점수 구하기.py">
-      <Filter>소스 파일</Filter>
-    </None>
     <None Include="최대점수구하기.py">
       <Filter>소스 파일</Filter>
     </None>
@@ -229,6 +226,12 @@
       <Filter>소스 파일</Filter>
     </None>
     <None Include="전화번호목록.py">
+      <Filter>소스 파일</Filter>
+    </None>
+    <None Include="위장.py">
+      <Filter>소스 파일</Filter>
+    </None>
+    <None Include="배고픈마라토너.py">
       <Filter>소스 파일</Filter>
     </None>
   </ItemGroup>

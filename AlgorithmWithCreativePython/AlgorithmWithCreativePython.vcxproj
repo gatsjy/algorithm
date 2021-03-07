@@ -190,6 +190,7 @@
     <None Include="동전구하기.py" />
     <None Include="등산경로.py" />
     <None Include="미로의 최단거리.py" />
+    <None Include="배고픈마라토너.py" />
     <None Include="선수과목.py" />
     <None Include="수들의조합.py" />
     <None Include="순열구하기.py" />
@@ -199,13 +200,13 @@
     <None Include="역수열.py" />
     <None Include="완주하지못한선수.py" />
     <None Include="위상정렬.py" />
+    <None Include="위장.py" />
     <None Include="음료수얼려먹기.py" />
     <None Include="인접행렬.py" />
     <None Include="작업.py" />
     <None Include="전보.py" />
     <None Include="전화번호목록.py" />
     <None Include="조합구하기.py" />
-    <None Include="최대점수 구하기.py" />
     <None Include="최대점수구하기.py" />
     <None Include="큐.py" />
     <None Include="플로이드워셜알고리즘.py" />
