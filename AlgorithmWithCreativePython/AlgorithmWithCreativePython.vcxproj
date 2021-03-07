@@ -195,17 +195,21 @@
     <None Include="순열구하기.py" />
     <None Include="순위.py" />
     <None Include="시각.py" />
+    <None Include="애너그램.py" />
     <None Include="역수열.py" />
+    <None Include="완주하지못한선수.py" />
     <None Include="위상정렬.py" />
     <None Include="음료수얼려먹기.py" />
     <None Include="인접행렬.py" />
     <None Include="작업.py" />
     <None Include="전보.py" />
+    <None Include="전화번호목록.py" />
     <None Include="조합구하기.py" />
     <None Include="최대점수 구하기.py" />
     <None Include="최대점수구하기.py" />
     <None Include="큐.py" />
     <None Include="플로이드워셜알고리즘.py" />
+    <None Include="회사에있는사람.py" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="15740%28A+B - 9%29.py" />

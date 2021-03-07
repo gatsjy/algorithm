@@ -219,6 +219,18 @@
     <None Include="가장먼노드.py">
       <Filter>소스 파일</Filter>
     </None>
+    <None Include="애너그램.py">
+      <Filter>소스 파일</Filter>
+    </None>
+    <None Include="회사에있는사람.py">
+      <Filter>소스 파일</Filter>
+    </None>
+    <None Include="완주하지못한선수.py">
+      <Filter>소스 파일</Filter>
+    </None>
+    <None Include="전화번호목록.py">
+      <Filter>소스 파일</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="15740%28A+B - 9%29.py">
