@@ -234,6 +234,9 @@
     <None Include="배고픈마라토너.py">
       <Filter>소스 파일</Filter>
     </None>
+    <None Include="연구소.py">
+      <Filter>소스 파일</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="15740%28A+B - 9%29.py">
