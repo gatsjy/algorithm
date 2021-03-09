@@ -240,6 +240,12 @@
     <None Include="여행경로.py">
       <Filter>소스 파일</Filter>
     </None>
+    <None Include="배달.py">
+      <Filter>소스 파일</Filter>
+    </None>
+    <None Include="문자열압축.py">
+      <Filter>소스 파일</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="15740%28A+B - 9%29.py">
