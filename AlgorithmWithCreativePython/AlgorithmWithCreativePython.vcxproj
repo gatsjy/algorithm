@@ -193,6 +193,7 @@
     <None Include="미로의 최단거리.py" />
     <None Include="배고픈마라토너.py" />
     <None Include="배달.py" />
+    <None Include="뱀.py" />
     <None Include="선수과목.py" />
     <None Include="수들의조합.py" />
     <None Include="순열구하기.py" />
