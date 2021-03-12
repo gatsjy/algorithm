@@ -203,6 +203,7 @@
     <None Include="여행경로.py" />
     <None Include="역수열.py" />
     <None Include="연구소.py" />
+    <None Include="연산자끼워넣기.py" />
     <None Include="완주하지못한선수.py" />
     <None Include="위상정렬.py" />
     <None Include="위장.py" />
