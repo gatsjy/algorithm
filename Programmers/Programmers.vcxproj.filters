@@ -37,4 +37,9 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="합승택시요금.py">
+      <Filter>소스 파일</Filter>
+    </None>
+  </ItemGroup>
 </Project>
