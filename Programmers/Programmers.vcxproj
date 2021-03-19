@@ -146,6 +146,7 @@
     <ClCompile Include="불량사용자.cpp" />
     <ClCompile Include="여행경로.cpp" />
     <ClCompile Include="추석트래픽.cpp" />
+    <ClCompile Include="크레인인형뽑기.py" />
   </ItemGroup>
   <ItemGroup>
     <None Include="합승택시요금.py" />
