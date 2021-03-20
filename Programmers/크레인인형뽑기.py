@@ -13,7 +13,7 @@ def pickdolls(board, move, size, dolls) :
             while flag :
                 flag = False
                 for i in range(1, len(dolls)) :
-                    if dolls[i - 1] == dolls[i] :
+                    if dolls[i - 1] == dolls[i] : 
                         flag = True
                         dolls.pop(i - 1)
                         dolls.pop(i - 1)
