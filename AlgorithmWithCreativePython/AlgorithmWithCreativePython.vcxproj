@@ -146,8 +146,10 @@
     <None Include="10. 스토쿠 검사.py" />
     <None Include="10. 점수계산.py" />
     <None Include="1000(A+B).py" />
+    <None Include="1058(친구).py" />
     <None Include="11. 격자판 회문수.py" />
     <None Include="11. 함수만들기.py" />
+    <None Include="1120(문자열).py" />
     <None Include="1166(선물).py" />
     <None Include="12. 람다함수.py" />
     <None Include="1931(회의실 배정).py" />

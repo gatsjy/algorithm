@@ -252,6 +252,12 @@
     <None Include="연산자끼워넣기.py">
       <Filter>소스 파일</Filter>
     </None>
+    <None Include="1120(문자열).py">
+      <Filter>소스 파일</Filter>
+    </None>
+    <None Include="1058(친구).py">
+      <Filter>소스 파일</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="15740%28A+B - 9%29.py">
