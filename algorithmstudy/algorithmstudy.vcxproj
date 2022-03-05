@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="10808.cpp" />
     <ClCompile Include="1120.cpp" />
     <ClCompile Include="1번문항.cpp" />
     <ClCompile Include="2529.cpp" />
