@@ -16,5 +16,6 @@ namespace backjoon_10808 {
 			cnt[a - 'a']++;
 		}
 		for (int i = 0; i < 26; i++) cout << cnt[i] << " ";
+		return 0;
 	}
 }

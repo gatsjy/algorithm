@@ -3,11 +3,11 @@
 #include <queue>
 
 using namespace std;
-
-int dx[4] = { 1,0,-1,0 };
-int dy[4] = { 0,1,0,-1 };
-
 namespace socar_second {
+
+	int dx[4] = { 1,0,-1,0 };
+	int dy[4] = { 0,1,0,-1 };
+
 	bool bfs(vector<string> drum, vector<vector<bool>> ch, int startX, int startY) {
 
 		// 1. 마지막 탈출구를 구현하다. (한개의 행을 생성해서 이를 표현)
