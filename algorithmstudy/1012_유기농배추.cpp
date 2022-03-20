@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
-
 using namespace std;
+namespace À¯±â³ó¹èÃß_1012{
 int dy[4] = { -1,0,1,0 };
 int dx[4] = { 0,1,0,-1 };
 int m, n, k, y, x, ret, ny, nx, t;
@@ -19,7 +19,7 @@ void dfs(int y, int x) {
 	return;
 }
 int main() {
-	cin.tie(NULL); cout.tie(NULL); 
+	cin.tie(NULL); cout.tie(NULL);
 	cin >> t;
 	while (t--) {
 		fill(&a[0][0], &a[0][0] + 51 * 51, 0);
@@ -41,4 +41,5 @@ int main() {
 		cout << ret << "\n";
 	}
 	return 0;
+}
 }
