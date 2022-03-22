@@ -23,6 +23,26 @@ int bfs(int y, int x) {
 		if (y == ey && x == ex) {
 			return visited[y][x][magic];
 		}
+		q.pop();
+		for (int i = 0; i < 4; i++) {
+			int ny = y + dy[i];
+			int nx = x + dx[i];
+			if (ny < 0 || nx < 0 || ny >= n || nx >= m) continue;
+			if (a[ny][nx] == 0 ) {
+				if (visited[ny][nx][magic] == 0) {
+					visited[ny][nx][magic] = visited[y][x][magic] + 1;
+					q.push({ ny,nx,magic });
+				}
+			}
+			if (a[ny][nx] == 1) {
+				if (magic == 0)
+				{
+					visited[ny][nx][1] = visited[y][x][magic] + 1;
+					q.push({ ny,nx,1 });
+				}
+
+			}
+		}
 	}
 }
 int main() {
@@ -32,8 +52,8 @@ int main() {
 
 	cin >> n >> m;
 
-	cin >> sy >> sx;
-	cin >> ey >> ex;
+	cin >> sx >> sy;
+	cin >> ex >> ey;
 	sy = sy - 1; sx = sx - 1; ey = ey - 1; ex = ex - 1;
 
 	for (int i = 0; i < n; i++)
@@ -44,5 +64,7 @@ int main() {
 	}
 
 	int res = bfs(sy, sx);
+
+	cout << res;
 	return 0;
 }
