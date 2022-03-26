@@ -28,6 +28,7 @@
     <ClCompile Include="2468_안전영역.cpp" />
     <ClCompile Include="2529.cpp" />
     <ClCompile Include="2583_영역구하기.cpp" />
+    <ClCompile Include="2870_수학숙제.cpp" />
     <ClCompile Include="2번문항.cpp" />
     <ClCompile Include="9372.cpp" />
     <ClCompile Include="1913.cpp" />
