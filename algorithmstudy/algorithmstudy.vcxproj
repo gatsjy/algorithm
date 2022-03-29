@@ -20,6 +20,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1012_유기농배추.cpp" />
+    <ClCompile Include="10709_기상캐스터.cpp" />
     <ClCompile Include="10808.cpp" />
     <ClCompile Include="1120.cpp" />
     <ClCompile Include="14923_미로탈출.cpp" />
