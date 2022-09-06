@@ -606,5 +606,8 @@
     <ClCompile Include="2309(일곱 난쟁이).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="10988(펠린드롬인지 확인하기).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
