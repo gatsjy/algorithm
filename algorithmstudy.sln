@@ -23,7 +23,9 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "동빈북", "동빈북\동�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AlgorithmWithCreativePython", "AlgorithmWithCreativePython\AlgorithmWithCreativePython.vcxproj", "{6952FE15-DF35-46E3-AB8B-4D6150091B38}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlgorithmCSharp", "AlgorithmCSharp\AlgorithmCSharp.csproj", "{36664B74-8179-4E5E-9B54-E2A2CC84D15B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlgorithmCSharp", "AlgorithmCSharp\AlgorithmCSharp.csproj", "{36664B74-8179-4E5E-9B54-E2A2CC84D15B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TIL", "TIL\TIL.vcxproj", "{62F40353-615A-4BC7-8996-85C3BA57596C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -147,6 +149,16 @@ Global
 		{36664B74-8179-4E5E-9B54-E2A2CC84D15B}.Release|x64.Build.0 = Release|Any CPU
 		{36664B74-8179-4E5E-9B54-E2A2CC84D15B}.Release|x86.ActiveCfg = Release|Any CPU
 		{36664B74-8179-4E5E-9B54-E2A2CC84D15B}.Release|x86.Build.0 = Release|Any CPU
+		{62F40353-615A-4BC7-8996-85C3BA57596C}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{62F40353-615A-4BC7-8996-85C3BA57596C}.Debug|x64.ActiveCfg = Debug|x64
+		{62F40353-615A-4BC7-8996-85C3BA57596C}.Debug|x64.Build.0 = Debug|x64
+		{62F40353-615A-4BC7-8996-85C3BA57596C}.Debug|x86.ActiveCfg = Debug|Win32
+		{62F40353-615A-4BC7-8996-85C3BA57596C}.Debug|x86.Build.0 = Debug|Win32
+		{62F40353-615A-4BC7-8996-85C3BA57596C}.Release|Any CPU.ActiveCfg = Release|Win32
+		{62F40353-615A-4BC7-8996-85C3BA57596C}.Release|x64.ActiveCfg = Release|x64
+		{62F40353-615A-4BC7-8996-85C3BA57596C}.Release|x64.Build.0 = Release|x64
+		{62F40353-615A-4BC7-8996-85C3BA57596C}.Release|x86.ActiveCfg = Release|Win32
+		{62F40353-615A-4BC7-8996-85C3BA57596C}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
