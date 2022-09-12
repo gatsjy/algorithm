@@ -105,9 +105,6 @@
     <ClCompile Include="14648.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="1620.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="12605.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
@@ -613,6 +610,9 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="11655(ROT13).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1620%28나는야포켓몬마스터이다솜%29.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
