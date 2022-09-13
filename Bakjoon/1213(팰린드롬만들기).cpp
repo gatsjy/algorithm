@@ -2,52 +2,51 @@
 
 using namespace std;
 
-namespace _1213 {
-	string s;
+string s;
+int ch[26];
+string res;
 
-	int main() {
+// 팰린드롬..
+// ABACABA = AAAABBC -> 4A 2B 1C -> AAB C BAA
+// AABBBBC -> 2A 4C B -> B 빼고 나누기 2 -> A 2C ACC B CCA
+// 하나인 것 캐치 -> 센터값 넣기
+// 앞의 값들은 그저 있는 값들만 모두 모아서 만들기 차례대로...
+int main() {
+	cin >> s;
+	for (int i = 0; i < s.size(); i++) {
+		ch[s[i] - 'A']++;
+	}
 
-		cin >> s;
-
-		char ch[26] = { 0, };
-		for (int i = 0; i < s.size(); i++) {
-			ch[s[i] - 'A']++;
+	int isPalin = 0;
+	int isCenterIdx = 0;
+	for (int i = 0; i < 26; i++) {
+		if (ch[i] % 2 == 1) { // 홀수가 2개 이상이면 팰린드롭이 아니다.
+			isPalin++;
+			isCenterIdx = i;
 		}
+	}
 
-		// 팰린드롬 만들수 있는지 확인
-		int check = 0;
+	if (isPalin > 1) {
+		cout << "I'm Sorry Hansoo";
+	}
+	else {
+		string tmp = "";
 		for (int i = 0; i < 26; i++) {
-			if (ch[i] % 2) {
-				check++;
+			for (int j = 0; j < ch[i] / 2; j++) {
+				tmp += i + 'A';
 			}
 		}
-
-		if (check > 1) {
-			cout << "I'm Sorry Hansoo";
-			return 0;
+		char center = isCenterIdx + 'A';
+		string pre = tmp;
+		reverse(tmp.begin(), tmp.end());
+		if (s.size() % 2 == 0) {
+			res = pre + tmp;
 		}
 		else {
-			string tmp = "";
-			char ctmp = '0';
-			for (int i = 0; i < 26; i++) {
-				if (ch[i] % 2) {
-					ctmp = i + 'A';
-					ch[i]--;
-				}
-			}
-			for (int i = 0; i < 26; i++) {
-				for (int j = 0; j < ch[i] / 2; j++) {
-					tmp += i + 'A';
-				}
-			}
-			string ntmp = tmp;
-			reverse(tmp.begin(), tmp.end());
-			if (check == 1) {
-				ntmp += ctmp;
-			}
-			ntmp += tmp;
-			cout << ntmp;
+			res = pre + center + tmp;
 		}
-		return 0;
+		cout << res;
 	}
+
+	return 0;
 }
