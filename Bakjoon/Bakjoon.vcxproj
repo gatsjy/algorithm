@@ -285,6 +285,7 @@
     <ClCompile Include="1926(그림).cpp" />
     <ClCompile Include="1931.cpp" />
     <ClCompile Include="1937(욕심쟁이 판다).cpp" />
+    <ClCompile Include="1940(주몽).cpp" />
     <ClCompile Include="1965(상자넣기).cpp" />
     <ClCompile Include="1966.cpp" />
     <ClCompile Include="1987(알파벳).cpp" />
