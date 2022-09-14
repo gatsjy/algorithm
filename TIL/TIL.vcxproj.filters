@@ -22,4 +22,9 @@
       <Filter>프로그래밍언어론</Filter>
     </Text>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="프로그래밍언어패러다임.txt">
+      <Filter>프로그래밍언어론</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>

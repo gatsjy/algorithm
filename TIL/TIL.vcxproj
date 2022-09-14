@@ -140,6 +140,9 @@
   <ItemGroup>
     <Text Include="프로그래밍언어의발전및동작원리.txt" />
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="프로그래밍언어패러다임.txt" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
