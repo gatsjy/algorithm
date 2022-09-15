@@ -2,27 +2,27 @@
 
 using namespace std;
 
-namespace _1629 {
-	long long A, B, C;
+typedef long long ll;
 
-	long long pow(int A, int B, int C)
-	{
-		if (B == 1) {
-			return A;
-		}
-		else {
-			long long tmp = pow(A, B / 2, C);
-			if (B % 2) {
-				return ((tmp * tmp) % C * A) % C;
-			}
-			else {
-				return (tmp * tmp) % C;
-			}
-		}
-	}
-	int main() {
-		cin >> A >> B >> C;
-		cout << pow(A % C, B, C);
-		return 0;
-	}
+ll a, b, c;
+
+// 이거 로직 분석해보기
+ll pow(ll a, ll b) {
+	if (b == 1) return a % c;
+
+	ll ret = pow(a, b / 2);
+	ret = (ret * ret) % c;
+	if (b % 2) ret = (ret * a) % c;
+	return ret;
+}
+
+int main() {
+	ios_base::sync_with_stdio(false);
+	cin.tie(NULL);
+	cin.tie(NULL);
+	cin >> a >> b >> c;
+
+	cout << pow(a, b) << "\n";
+
+	return 0;
 }

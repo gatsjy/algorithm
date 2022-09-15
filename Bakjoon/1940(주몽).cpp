@@ -2,25 +2,27 @@
 
 using namespace std;
 
-int n, m, cnt;
-int k[15001];
-int main() {
+namespace _1940 {
+	int n, m, cnt;
+	int k[15001];
+	int main() {
 
-	ios_base::sync_with_stdio(false);
-	cin.tie(NULL);
-	cout.tie(NULL);
-	cin >> n >> m;
-	
-	for (int i = 0; i < n; i++) {
-		cin >> k[i];
-	}
+		ios_base::sync_with_stdio(false);
+		cin.tie(NULL);
+		cout.tie(NULL);
+		cin >> n >> m;
 
-	for (int i = 0; i < n; i++) {
-		for (int j = i + 1; j < n; j++) {
-			if (k[i] + k[j] == m) cnt++;
+		for (int i = 0; i < n; i++) {
+			cin >> k[i];
 		}
-	}
-	cout << cnt;
 
-	return 0;
+		for (int i = 0; i < n; i++) {
+			for (int j = i + 1; j < n; j++) {
+				if (k[i] + k[j] == m) cnt++;
+			}
+		}
+		cout << cnt;
+
+		return 0;
+	}
 }
