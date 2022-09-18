@@ -621,5 +621,8 @@
     <ClCompile Include="3986(좋은단어).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="6236(용돈관리).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
