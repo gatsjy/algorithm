@@ -142,6 +142,7 @@
     <ClCompile Include="..\AlgorithmWithCreativeCpp\10026.cpp" />
     <ClCompile Include="..\AlgorithmWithCreativeCpp\15666(N과M_12).cpp" />
     <ClCompile Include="10093.cpp" />
+    <ClCompile Include="1012(유기농배추).cpp" />
     <ClCompile Include="10159(저울).cpp" />
     <ClCompile Include="1022.cpp" />
     <ClCompile Include="1037(약수).cpp" />

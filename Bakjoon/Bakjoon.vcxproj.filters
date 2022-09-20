@@ -624,5 +624,8 @@
     <ClCompile Include="6236(용돈관리).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="1012(유기농배추).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
