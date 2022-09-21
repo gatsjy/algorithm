@@ -306,6 +306,7 @@
     <ClCompile Include="2386(도비의 영어 공부).cpp" />
     <ClCompile Include="2420.cpp" />
     <ClCompile Include="2458(키순서).cpp" />
+    <ClCompile Include="2468(안전영역).cpp" />
     <ClCompile Include="2512(예산).cpp" />
     <ClCompile Include="2556.cpp" />
     <ClCompile Include="2573(빙하).cpp" />
