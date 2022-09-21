@@ -16,15 +16,22 @@
     <Filter Include="프로그래밍언어론">
       <UniqueIdentifier>{21a0a98b-069c-4c11-ab3f-3334aeff0fd2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="UNIX시스템">
+      <UniqueIdentifier>{148f9da2-e0e9-4322-aa02-0931a39001c1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="프로그래밍언어의발전및동작원리.txt">
       <Filter>프로그래밍언어론</Filter>
+    </Text>
+    <Text Include="사용자관리.txt">
+      <Filter>UNIX시스템</Filter>
     </Text>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="프로그래밍언어패러다임.txt">
       <Filter>프로그래밍언어론</Filter>
     </ClCompile>
+    <ClCompile Include="전사아키텍처개요.txt" />
   </ItemGroup>
 </Project>

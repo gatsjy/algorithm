@@ -138,6 +138,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <Text Include="사용자관리.txt" />
     <Text Include="프로그래밍언어의발전및동작원리.txt" />
   </ItemGroup>
   <ItemGroup>
