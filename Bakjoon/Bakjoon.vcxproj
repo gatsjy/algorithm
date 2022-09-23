@@ -311,6 +311,7 @@
     <ClCompile Include="2556.cpp" />
     <ClCompile Include="2573(빙하).cpp" />
     <ClCompile Include="2579(계단 오르기).cpp" />
+    <ClCompile Include="2583%28영역 구하기%29.cpp" />
     <ClCompile Include="2589(보물섬).cpp" />
     <ClCompile Include="2636(치즈).cpp" />
     <ClCompile Include="2668(숫자고르기).cpp" />
