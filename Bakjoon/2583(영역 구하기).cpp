@@ -1,14 +1,16 @@
 #include <bits/stdc++.h>
 
 using namespace std;
+#define y1 aaaa
 
 int m, n, k;
 int d;
 int cnt;
 int a[101][101], visited[101][101];
+
 vector<int> res;
 
-int yy2, yy1, xx2, xx1;
+int y2, y1, x2, x1;
 int dy[4] = { -1,0,1,0 };
 int dx[4] = { 0,1,0,-1 };
 void dfs(int y, int x) {
@@ -41,17 +43,15 @@ int main() {
 	for (int d = 0; d < k; d++) {
 		// y1, x1 -> 왼쪽아래
 		// y2, x2 -> 오른쪽위
-		//cin >> yy1 >> xx1 >> yy2 >> xx2;
-		cin >> xx1 >> yy1 >> xx2 >> yy2;
+		cin >> x1 >> y1 >> x2 >> y2;
 
-		for (int i = yy1; i < yy2; i++) {
-			for (int j = xx1; j < xx2; j++) {
-				visited[j][i] = 1;
+		for (int x = x1; x < x2; x++) {
+			for (int y = y1; y < y2; y++) {
+				visited[y][x] = 1;
 			}
 		}
 	}
 
-	// 근데 상관 없잖어..?
 	for (int i = 0; i < m; i++) {
 		for (int j = 0; j < n; j++) {
 			if (!visited[i][j]) {
@@ -60,6 +60,12 @@ int main() {
 				res.push_back(cnt);
 			}
 		}
+	}
+	sort(res.begin(), res.end());
+
+	cout << res.size() << "\n";
+	for (int i = 0; i < res.size() ; i++) {
+		cout << res[i] << " ";
 	}
 	return 0;
 }
