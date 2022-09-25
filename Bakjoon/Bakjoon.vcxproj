@@ -345,6 +345,7 @@
     <ClCompile Include="9466.cpp" />
     <ClCompile Include="9663(N-Queen).cpp" />
     <ClCompile Include="1182%28부분수열의 합%29.cpp" />
+    <ClCompile Include="string값끼리더하는로직.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
