@@ -19,6 +19,9 @@
     <Filter Include="UNIX시스템">
       <UniqueIdentifier>{148f9da2-e0e9-4322-aa02-0931a39001c1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="자료구조">
+      <UniqueIdentifier>{fcb50184-2c42-4a0f-9eb6-6a6db911506c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="프로그래밍언어의발전및동작원리.txt">
@@ -26,6 +29,9 @@
     </Text>
     <Text Include="사용자관리.txt">
       <Filter>UNIX시스템</Filter>
+    </Text>
+    <Text Include="2강_배열.txt">
+      <Filter>자료구조</Filter>
     </Text>
   </ItemGroup>
   <ItemGroup>
