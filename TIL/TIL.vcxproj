@@ -143,6 +143,7 @@
     <Text Include="프로그래밍언어의발전및동작원리.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="7강 텍스트 편집.txt" />
     <ClCompile Include="전사아키텍처개요.txt" />
     <ClCompile Include="프로그래밍언어패러다임.txt" />
   </ItemGroup>
