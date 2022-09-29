@@ -645,5 +645,8 @@
     <ClCompile Include="2828(백준).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="2910(빈도정렬)cpp.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
