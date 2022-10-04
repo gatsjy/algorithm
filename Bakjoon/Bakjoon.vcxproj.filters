@@ -657,5 +657,8 @@
     <ClCompile Include="3474(교수가된현우).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="2852(NBA농구).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
