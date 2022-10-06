@@ -347,6 +347,7 @@
     <ClCompile Include="7576(토마토).cpp" />
     <ClCompile Include="8892(팰린드롬).cpp" />
     <ClCompile Include="8949(대충 더해).cpp" />
+    <ClCompile Include="9012(괄호).cpp" />
     <ClCompile Include="9086.cpp" />
     <ClCompile Include="9095(1, 2, 3 더하기).cpp" />
     <ClCompile Include="9465(스티커).cpp" />
