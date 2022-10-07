@@ -8,27 +8,39 @@ string isStc(string s) {
 	
 	stack<char> st;
 	for (int i = 0; i < s.size(); i++) {
+		if (!(s[i] == '(' || s[i] == '[' || s[i] == ')' || s[i] == ']')) continue;
 		if (st.size() == 0) {
-			if (s[i] == ')') return "NO";
+			if (s[i] == ')') return "no";
+			if (s[i] == ']') return "no";
+
 			else st.push(s[i]);
 		}
 		else {
 			if (s[i] == '(') {
 				st.push('(');
 			}
-			else { // s[i] == ')'
-				if (st.empty()) return "NO";
+			else if (s[i] == '[') {
+				st.push('[');
+			}
+			else if (s[i] == ')') {
+				if (st.empty()) return "no";
+				else if (st.top() != '(') return "no";
+				else st.pop();
+			}
+			else if (s[i] == ']') {
+				if (st.empty()) return "no";
+				else if (st.top() != '[') return "no";
 				else st.pop();
 			}
 		}
 	}
-	if (!st.empty()) return "NO";
-	return "YES";
+	if (!st.empty()) return "no";
+	return "yes";
 }
 int main() {
-	cin >> n;
-	while (n--) {
-		cin >> s;
+	while (1) {
+		getline(cin, s);
+		if (s == ".") break;
 		cout << isStc(s) << "\n";
 	}
 
