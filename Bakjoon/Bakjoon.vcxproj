@@ -162,6 +162,7 @@
     <ClCompile Include="10988(펠린드롬인지 확인하기).cpp" />
     <ClCompile Include="10989.cpp" />
     <ClCompile Include="10990.cpp" />
+    <ClCompile Include="10995(별찍기20).cpp" />
     <ClCompile Include="11023.cpp" />
     <ClCompile Include="11048(이동하기).cpp" />
     <ClCompile Include="1107(리모컨).cpp" />
