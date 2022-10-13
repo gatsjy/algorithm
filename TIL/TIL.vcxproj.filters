@@ -39,5 +39,9 @@
       <Filter>프로그래밍언어론</Filter>
     </ClCompile>
     <ClCompile Include="전사아키텍처개요.txt" />
+    <ClCompile Include="7강 텍스트 편집.txt" />
+    <ClCompile Include="데이터아키텍처 자격검증 실전문제.txt">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
