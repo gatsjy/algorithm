@@ -1085,6 +1085,8 @@ H대리가 검토해야하는 기준이 아닌 것은?
 227. 다음 중 논리 데이터 모델을 물리 데이터 모델로 변환할 때 잘못 짝지어진 것은?
 ① Entity - Table
 ② Attribute - Column
+
+
 ③ Primary UID - Primary Key
 ④ Business Rule - Index 
 -> Business Rule = Constraints
