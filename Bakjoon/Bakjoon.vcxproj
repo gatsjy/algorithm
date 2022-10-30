@@ -271,6 +271,7 @@
     <ClCompile Include="17090(미로 탈출하기).cpp" />
     <ClCompile Include="17141(연구소 2).cpp" />
     <ClCompile Include="1717(집합의 표현).cpp" />
+    <ClCompile Include="17298(오큰수).cpp" />
     <ClCompile Include="17427(약수의 합 2).cpp" />
     <ClCompile Include="1744.cpp" />
     <ClCompile Include="1747(소수and펠린드롬).cpp" />

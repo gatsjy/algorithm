@@ -681,5 +681,8 @@
     <ClCompile Include="1325(효율적인해킹).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="17298(오큰수).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
