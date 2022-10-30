@@ -11,13 +11,13 @@ int main() {
 	memset(ret, -1, sizeof(ret));
 	for (int i = 0; i < n; i++) {
 		cin >> a[i];
-		while (!st.empty() && ret[st.top()] < a[i]) {
+		while (st.size() && a[st.top()] < a[i]) {
 			ret[st.top()] = a[i];
 			st.pop();
 		}
 		st.push(i);
 	}
-	for (int i = 1; i <= n; i++) {
+	for (int i = 0; i < n; i++) {
 		cout << ret[i] << " ";
 	}
 
