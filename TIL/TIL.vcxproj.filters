@@ -43,5 +43,8 @@
     <ClCompile Include="데이터아키텍처 자격검증 실전문제.txt">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="DASP시험장들어가기전외워야할것.txt">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
