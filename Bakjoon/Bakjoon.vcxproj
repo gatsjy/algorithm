@@ -181,6 +181,7 @@
     <ClCompile Include="1173.cpp" />
     <ClCompile Include="1182(부분 수열의 합).cpp" />
     <ClCompile Include="11866.cpp" />
+    <ClCompile Include="1189(컴백폼).cpp" />
     <ClCompile Include="11931.cpp" />
     <ClCompile Include="11945.cpp" />
     <ClCompile Include="11967(불켜기).cpp" />
