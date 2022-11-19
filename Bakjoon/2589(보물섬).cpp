@@ -1,70 +1,45 @@
-#include <iostream>
-#include <string>
-#include <vector>
-#include <queue>
-#include <cstring>
+#include <bits/stdc++.h>
 
 using namespace std;
 
-namespace _2589 {
-	int dx[4] = { -1,0,1,0 };
-	int dy[4] = { 0,1,0,-1 };
-
-	char board[51][51];
-	int ch[51][51];
-	int n, m;
-	int res = -1;
-
-	int bfs(int fx, int fy) {
-		memset(ch, 0, sizeof(ch));
-		int result = 0;
-		queue<pair<int, int>> q;
-		q.push({ fx,fy });
-		ch[fx][fy] = 1;
-		while (!q.empty()) {
-			auto cur = q.front();
-			q.pop();
-			int x = cur.first;
-			int y = cur.second;
-			result = max(result, ch[x][y]);
-			for (int i = 0; i < 4; i++) {
-				int nx = x + dx[i];
-				int ny = y + dy[i];
-				if (nx < 0 || ny < 0 || nx >= n || ny >= m) continue;
-				if (board[nx][ny] == 'W' || ch[nx][ny] > 0) continue;
-				ch[nx][ny] = ch[x][y] + 1;
-				q.push({ nx,ny });
-			}
+// 가중치가 같을 경우.. bfs
+int dy[4] = { -1,0,1,0 };
+int dx[4] = { 0 ,1 , 0 -1 };
+int n, m, mx;
+char a[54][54];
+int visited[54][54];
+void bfs(int y, int x) {
+	memset(visited, 0, sizeof(visited));
+	visited[y][x] = 1;
+	queue<pair<int, int>> q;
+	q.push({ y,x });
+	while (q.size()) {
+		tie(y, x) = q.front(); q.pop();
+		for (int i = 0; i < 4; i++) {
+			int ny = y + dy[i];
+			int nx = x + dx[i];
+			if (ny < 0 || nx < 0 || ny >= n || nx >= m) continue;
+			if (visited[ny][nx]) continue;
+			if(a[ny][nx] == 'W') continue;
+			visited[ny][nx] = visited[y][x] + 1;
+			q.push({ ny,nx });
+			mx = max(mx, visited[ny][nx]);
 		}
-		return result - 1;
+
+	}
+}
+int main() {
+	cin >> n >> m;
+	for (int i = 0; i < n; i++) {
+		for (int j = 0; j < m; j++) {
+			cin >> a[i][j];
+		}
+	}
+	for (int i = 0; i < n; i++) {
+		for (int j = 0; j < m; j++) {
+			if (a[i][j] == 'L') bfs(i, j);
+		}
 	}
 
-	int main() {
-
-		ios_base::sync_with_stdio(0);
-		cin.tie(0);
-		cout.tie(0);
-
-		cin >> n >> m;
-
-		for (int i = 0; i < n; i++) {
-			for (int j = 0; j < m; j++) {
-				char input;
-				cin >> input;
-				board[i][j] = input;
-			}
-		}
-
-		for (int i = 0; i < n; i++) {
-			for (int j = 0; j < m; j++) {
-				if (board[i][j] == 'L') {
-					res = max(res, bfs(i, j));
-				}
-			}
-		}
-
-		cout << res;
-
-		return 0;
-	}
+	cout << mx-1;
 }
