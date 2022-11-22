@@ -141,6 +141,7 @@
     <Text Include="2강_배열.txt" />
     <Text Include="dasp준전문가한권에끝내기.txt" />
     <Text Include="사용자관리.txt" />
+    <Text Include="알고리즘현장수업과제.txt" />
     <Text Include="프로그래밍언어의발전및동작원리.txt" />
   </ItemGroup>
   <ItemGroup>
