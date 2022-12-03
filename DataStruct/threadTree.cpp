@@ -21,6 +21,15 @@ void inorder(struct TNode* firstin) {
 		p = p->right_thread;
 	}
 }
+
+void Preorder(struct TFNode* root) {
+	struct TFNode* p;
+	p = root;
+	while (p != null) {
+		printf("%d", p->info);
+		p = p->left;
+	}
+}
 int main() {
 
 }
