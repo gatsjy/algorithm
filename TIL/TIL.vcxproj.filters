@@ -37,6 +37,9 @@
     <Text Include="알고리즘현장수업과제.txt">
       <Filter>자료구조</Filter>
     </Text>
+    <Text Include="2019기말고사.txt">
+      <Filter>UNIX시스템</Filter>
+    </Text>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="프로그래밍언어패러다임.txt">
