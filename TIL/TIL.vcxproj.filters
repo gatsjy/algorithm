@@ -40,6 +40,9 @@
     <Text Include="2019기말고사.txt">
       <Filter>UNIX시스템</Filter>
     </Text>
+    <Text Include="6장 사용자 관리.txt">
+      <Filter>UNIX시스템</Filter>
+    </Text>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="프로그래밍언어패러다임.txt">

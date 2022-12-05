@@ -140,6 +140,7 @@
   <ItemGroup>
     <Text Include="2019기말고사.txt" />
     <Text Include="2강_배열.txt" />
+    <Text Include="6장 사용자 관리.txt" />
     <Text Include="dasp준전문가한권에끝내기.txt" />
     <Text Include="사용자관리.txt" />
     <Text Include="알고리즘현장수업과제.txt" />
