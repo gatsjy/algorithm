@@ -53,5 +53,8 @@
     <ClCompile Include="DASP시험장들어가기전외워야할것.txt">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="5강 리눅스 시작과 종료.txt">
+      <Filter>UNIX시스템</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
