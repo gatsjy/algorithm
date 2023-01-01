@@ -1,17 +1,15 @@
-#include <iostream>
+#include<bits/stdc++.h>
 
 using namespace std;
+int n, m, sum;
+int main() {
 
-namespace _1 {
-	int main() {
-		int N, M;
-		cin >> N >> M;
-		int sum = 0;
-		// 1. 1부터 N까지의 수 중 M의 배수합을 출력하라
-		for (int i = 1; i <= N; i++) {
-			if (i % M == 0) sum += i;
+	cin >> n >> m;
+	for (int i = 1; i <= n; i++) {
+		if (!(i % m)) {
+			sum += i;
 		}
-		cout << sum;
-		return 0;
 	}
+	cout << sum;
+	return 0;
 }

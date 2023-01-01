@@ -18,6 +18,9 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="1.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -139,81 +142,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="네트워크 선 자르기%28Bottom-Up%29.cpp" />
-    <ClCompile Include="1.cpp" />
-    <ClCompile Include="10%28자리수세기%29.cpp" />
-    <ClCompile Include="11.cpp" />
-    <ClCompile Include="12.cpp" />
-    <ClCompile Include="13.cpp" />
-    <ClCompile Include="14.cpp" />
-    <ClCompile Include="15.cpp" />
-    <ClCompile Include="16.cpp" />
-    <ClCompile Include="17.cpp" />
-    <ClCompile Include="18.cpp" />
-    <ClCompile Include="19.cpp" />
-    <ClCompile Include="2.cpp" />
-    <ClCompile Include="20.cpp" />
-    <ClCompile Include="21.cpp" />
-    <ClCompile Include="22.cpp" />
-    <ClCompile Include="23.cpp" />
-    <ClCompile Include="24.cpp" />
-    <ClCompile Include="25.cpp" />
-    <ClCompile Include="26.cpp" />
-    <ClCompile Include="27.cpp" />
-    <ClCompile Include="3.cpp" />
-    <ClCompile Include="31.cpp" />
-    <ClCompile Include="37.cpp" />
-    <ClCompile Include="38.cpp" />
-    <ClCompile Include="39.cpp" />
-    <ClCompile Include="4.cpp" />
-    <ClCompile Include="40.cpp" />
-    <ClCompile Include="41.cpp" />
-    <ClCompile Include="42.cpp" />
-    <ClCompile Include="45.cpp" />
-    <ClCompile Include="46.cpp" />
-    <ClCompile Include="47.cpp" />
-    <ClCompile Include="48.cpp" />
-    <ClCompile Include="49.cpp" />
-    <ClCompile Include="5.cpp" />
-    <ClCompile Include="50.cpp" />
-    <ClCompile Include="51.cpp" />
-    <ClCompile Include="52.cpp" />
-    <ClCompile Include="53.cpp" />
-    <ClCompile Include="55.cpp" />
-    <ClCompile Include="56.cpp" />
-    <ClCompile Include="57.cpp" />
-    <ClCompile Include="58.cpp" />
-    <ClCompile Include="59.cpp" />
-    <ClCompile Include="6.cpp" />
-    <ClCompile Include="60.cpp" />
-    <ClCompile Include="61.cpp" />
-    <ClCompile Include="62.cpp" />
-    <ClCompile Include="67%28dfs%29.cpp" />
-    <ClCompile Include="68.cpp" />
-    <ClCompile Include="69.cpp" />
-    <ClCompile Include="7.cpp" />
-    <ClCompile Include="70.cpp" />
-    <ClCompile Include="71.cpp" />
-    <ClCompile Include="72.cpp" />
-    <ClCompile Include="75.cpp" />
-    <ClCompile Include="76.cpp" />
-    <ClCompile Include="77%28unf%29.cpp" />
-    <ClCompile Include="78.cpp" />
-    <ClCompile Include="79.cpp" />
-    <ClCompile Include="8.cpp" />
-    <ClCompile Include="80.cpp" />
-    <ClCompile Include="81.cpp" />
-    <ClCompile Include="82.cpp" />
-    <ClCompile Include="84.cpp" />
-    <ClCompile Include="85.cpp" />
-    <ClCompile Include="86.cpp" />
-    <ClCompile Include="87.cpp" />
-    <ClCompile Include="9.cpp" />
-    <ClCompile Include="네트워크 선 자르기%28Top-Down%29.cpp" />
-    <ClCompile Include="소스.cpp" />
-    <ClCompile Include="최대 부분 증가 수열.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
