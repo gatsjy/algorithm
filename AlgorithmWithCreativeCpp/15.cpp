@@ -13,8 +13,13 @@ int main() {
 		}
 	}
 
-	for (int i = 1; i <= n; i++) {
-		if (!ch[i])cnt++;
+	for (int i = 2; i <= n; i++) {
+		if (!ch[i]) {
+			cnt++;
+			//cout << i << "\n";
+		}
+
 	}
+	cout << cnt;
 	return 0;
 }
