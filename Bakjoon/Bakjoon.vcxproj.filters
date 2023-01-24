@@ -699,5 +699,8 @@
     <ClCompile Include="10828(스택).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="5176(대회자리).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
