@@ -702,5 +702,8 @@
     <ClCompile Include="5176(대회자리).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="3058(짝수를 찾아라).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

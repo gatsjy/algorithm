@@ -334,6 +334,7 @@
     <ClCompile Include="2870(수학숙제).cpp" />
     <ClCompile Include="2910(빈도정렬)cpp.cpp" />
     <ClCompile Include="3003.cpp" />
+    <ClCompile Include="3058(짝수를 찾아라).cpp" />
     <ClCompile Include="3098(소셜네트워크).cpp" />
     <ClCompile Include="3184(양).cpp" />
     <ClCompile Include="3190(뱀).cpp" />
