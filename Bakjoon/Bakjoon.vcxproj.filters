@@ -708,5 +708,8 @@
     <ClCompile Include="2744(대소문자 바꾸기).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="5555(반지).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
