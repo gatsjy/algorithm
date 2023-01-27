@@ -184,6 +184,7 @@
     <ClCompile Include="11866.cpp" />
     <ClCompile Include="1189(컴백폼).cpp" />
     <ClCompile Include="11931.cpp" />
+    <ClCompile Include="11944(NN).cpp" />
     <ClCompile Include="11945.cpp" />
     <ClCompile Include="11967(불켜기).cpp" />
     <ClCompile Include="1197(최소 스패닝 트리).cpp" />

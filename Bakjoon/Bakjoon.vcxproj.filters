@@ -711,5 +711,8 @@
     <ClCompile Include="5555(반지).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="11944(NN).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
