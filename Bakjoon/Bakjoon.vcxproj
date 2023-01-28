@@ -165,6 +165,7 @@
     <ClCompile Include="10989.cpp" />
     <ClCompile Include="10990.cpp" />
     <ClCompile Include="10995(별찍기20).cpp" />
+    <ClCompile Include="11008(복붙의 달인).cpp" />
     <ClCompile Include="11023.cpp" />
     <ClCompile Include="11048(이동하기).cpp" />
     <ClCompile Include="1107(리모컨).cpp" />
