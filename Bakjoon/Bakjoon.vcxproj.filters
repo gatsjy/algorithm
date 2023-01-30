@@ -720,5 +720,8 @@
     <ClCompile Include="1350(진짜 공간).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="10865(친구 친구).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

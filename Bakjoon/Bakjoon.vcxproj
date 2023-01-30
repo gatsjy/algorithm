@@ -154,6 +154,7 @@
     <ClCompile Include="10804(카드역배치).cpp" />
     <ClCompile Include="10828(스택).cpp" />
     <ClCompile Include="10833(사과).cpp" />
+    <ClCompile Include="10865(친구 친구).cpp" />
     <ClCompile Include="10872.cpp" />
     <ClCompile Include="1092(배).cpp" />
     <ClCompile Include="10951.cpp" />
