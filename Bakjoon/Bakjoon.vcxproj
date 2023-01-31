@@ -354,6 +354,7 @@
     <ClCompile Include="5337.cpp" />
     <ClCompile Include="5363.cpp" />
     <ClCompile Include="5427(불).cpp" />
+    <ClCompile Include="5534(J박스).cpp" />
     <ClCompile Include="5555(반지).cpp" />
     <ClCompile Include="5557(1학년).cpp" />
     <ClCompile Include="5567.cpp" />
