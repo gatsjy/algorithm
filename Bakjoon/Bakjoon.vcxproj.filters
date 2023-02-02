@@ -726,5 +726,8 @@
     <ClCompile Include="5534(J박스).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="12778(CTP공국).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
