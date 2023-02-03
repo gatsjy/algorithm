@@ -203,6 +203,7 @@
     <ClCompile Include="1271(엄청난 부자2).cpp" />
     <ClCompile Include="12761(돌다리).cpp" />
     <ClCompile Include="12778(CTP공국).cpp" />
+    <ClCompile Include="12790.cpp" />
     <ClCompile Include="12813(이진수 연산).cpp" />
     <ClCompile Include="12851(숨바꼭질 2).cpp" />
     <ClCompile Include="12852(1로 만들기 2).cpp" />
