@@ -203,6 +203,7 @@
     <ClCompile Include="1271(엄청난 부자2).cpp" />
     <ClCompile Include="12761(돌다리).cpp" />
     <ClCompile Include="12778(CTP공국).cpp" />
+    <ClCompile Include="12780(원피스).cpp" />
     <ClCompile Include="12790.cpp" />
     <ClCompile Include="12813(이진수 연산).cpp" />
     <ClCompile Include="12851(숨바꼭질 2).cpp" />
@@ -376,6 +377,7 @@
     <ClCompile Include="1182%28부분수열의 합%29.cpp" />
     <ClCompile Include="SPARCEMATRIX.cpp" />
     <ClCompile Include="string값끼리더하는로직.cpp" />
+    <ClCompile Include="소스.cpp" />
     <ClCompile Include="트리.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
