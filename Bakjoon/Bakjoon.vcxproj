@@ -220,6 +220,7 @@
     <ClCompile Include="1342(행운의 문자열).cpp" />
     <ClCompile Include="1350(진짜 공간).cpp" />
     <ClCompile Include="13549(숨바꼭질 3).cpp" />
+    <ClCompile Include="1356(유진수).cpp" />
     <ClCompile Include="13565(침투).cpp" />
     <ClCompile Include="1360(되돌리기).cpp" />
     <ClCompile Include="13752.cpp" />
