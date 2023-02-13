@@ -744,5 +744,8 @@
     <ClCompile Include="25304%28영수증%29.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="11024(더하기 4).cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
